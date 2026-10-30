@@ -1,152 +1,108 @@
-import streamlit as st
-import pandas as pd
+"""Streamlit UI for the Delhi NCR house price predictor.  Run:  streamlit run app.py"""
+import json
+from pathlib import Path
+
+import joblib
 import numpy as np
-import pickle
+import pandas as pd
+import streamlit as st
 
-# ─────────────────────────────────────────
-# PAGE CONFIG
-# ─────────────────────────────────────────
-st.set_page_config(
-    page_title="🏠 House Price Predictor",
-    page_icon="🏠",
-    layout="wide"
-)
+from housing import format_inr, predict_price
 
-st.markdown("""
-<style>
-    .stButton>button {
-        background-color: #e63946;
-        color: white;
-        font-size: 18px;
-        font-weight: bold;
-        border-radius: 10px;
-        width: 100%;
-        padding: 0.6em;
-    }
-    .metric-card {
-        background: white;
-        border-radius: 12px;
-        padding: 20px;
-        text-align: center;
-        box-shadow: 0 2px 8px rgba(0,0,0,0.08);
-        margin: 5px 0;
-    }
-    .metric-label { color: #6c757d; font-size: 14px; margin-bottom: 4px; }
-    .metric-value { color: #212529; font-size: 26px; font-weight: 700; }
-    .predict-box {
-        background: linear-gradient(135deg, #e63946 0%, #c1121f 100%);
-        border-radius: 16px;
-        padding: 30px;
-        text-align: center;
-        color: white;
-        margin: 20px 0;
-    }
-    .predict-title { font-size: 18px; opacity: 0.9; margin-bottom: 8px; }
-    .predict-price { font-size: 48px; font-weight: 800; letter-spacing: -1px; }
-    .predict-sub   { font-size: 14px; opacity: 0.8; margin-top: 6px; }
-</style>
-""", unsafe_allow_html=True)
+HERE = Path(__file__).parent
+st.set_page_config(page_title="Delhi NCR House Price Predictor", page_icon="🏠", layout="wide")
 
 
-# ─────────────────────────────────────────
-# LOAD PKL FILES (cached)
-# ─────────────────────────────────────────
 @st.cache_resource
-def load_model():
-    with open("model.pkl", "rb") as f:
-        model = pickle.load(f)
-    with open("scaler.pkl", "rb") as f:
-        scaler = pickle.load(f)
-    with open("locality_mean.pkl", "rb") as f:
-        locality_mean = pickle.load(f)
-    with open("feature_cols.pkl", "rb") as f:
-        feature_cols = pickle.load(f)
-    return model, scaler, locality_mean, feature_cols
-
-model, scaler, locality_mean, feature_cols = load_model()
+def load_artifacts():
+    model = joblib.load(HERE / "model.joblib")
+    meta = json.loads((HERE / "meta.json").read_text())
+    return model, meta
 
 
-# ─────────────────────────────────────────
-# HEADER
-# ─────────────────────────────────────────
-st.title("🏠  House Price Predictor")
-st.markdown("**Delhi NCR** | R² = 0.86")
-st.divider()
+if not (HERE / "model.joblib").exists():
+    st.error("model.joblib not found. Run `python train.py` first, then reload this page.")
+    st.stop()
 
+model, meta = load_artifacts()
+cats = meta["categories"]
 
-# INPUT FORM
-# ─────────────────────────────────────────
-st.subheader("🔍 Enter Property Details")
+st.title("🏠 Delhi NCR House Price Predictor")
+st.caption("XGBoost model trained on ~7.7k property listings across Delhi, Gurgaon, Noida, "
+           "Greater Noida, Ghaziabad and Faridabad.")
 
-col1, col2 = st.columns(2)
+left, right = st.columns([3, 2], gap="large")
 
-with col1:
-    locality    = st.selectbox("📍 Locality", sorted(locality_mean.keys()))
-    area        = st.number_input("📐 Area (sq ft)", min_value=100, max_value=10000, value=1200, step=50)
-    bhk         = st.slider("🛏️ BHK", min_value=1, max_value=6, value=2)
-    bathroom    = st.slider("🚿 Bathrooms", min_value=1, max_value=6, value=2)
+with left:
+    st.subheader("Property details")
+    c1, c2 = st.columns(2)
+    city = c1.selectbox("City / region", meta["cities"], index=meta["cities"].index("Gurgaon") if "Gurgaon" in meta["cities"] else 0)
 
-with col2:
-    parking     = st.slider("🚗 Parking", min_value=0, max_value=5, value=1)
-    furnishing  = st.selectbox("🛋️ Furnishing", ["Semi-Furnished", "Furnished", "Unfurnished"])
-    status      = st.selectbox("🏗️ Status", ["Ready_to_move", "Almost_ready"])
-    transaction = st.selectbox("💼 Transaction", ["Resale", "New_Property"])
-    prop_type   = st.selectbox("🏢 Type", ["Apartment", "Builder_Floor"])
+    locs = meta["localities"].get(city, [])
+    loc_names = [l["name"] for l in locs] + ["Other / not listed"]
+    loc_choice = c2.selectbox("Locality", loc_names)
+    if loc_choice == "Other / not listed":
+        centre = meta["city_centre"][city]
+        lat0, lon0, ref_psf = centre["lat"], centre["lon"], centre["median_price_sqft"]
+        locality_for_model = loc_choice
+    else:
+        l = next(x for x in locs if x["name"] == loc_choice)
+        lat0, lon0, ref_psf = l["lat"], l["lon"], l["median_price_sqft"]
+        locality_for_model = loc_choice
 
-st.markdown("")
+    c3, c4 = st.columns(2)
+    btype = c3.selectbox("Property type", cats["type_of_building"])
+    area = c4.number_input("Area (sq ft)", min_value=300, max_value=10000, value=1200, step=50)
 
-# ─────────────────────────────────────────
-# PREDICT
-# ─────────────────────────────────────────
-if st.button("🔮 Predict Price"):
+    c5, c6, c7 = st.columns(3)
+    beds = c5.number_input("Bedrooms", 1, 10, 3)
+    baths = c6.number_input("Bathrooms", 1, 10, 2)
+    balc = c7.selectbox("Balconies", [None, 1, 2, 3, 4, 5], format_func=lambda v: "Not specified" if v is None else str(v))
 
-    # FIX 1 — division safety (bhk=0 se crash nahi hoga)
-    apb = area / bhk if bhk != 0 else 0
+    c8, c9, c10 = st.columns(3)
+    parking = c8.selectbox("Parking spots", [None, 1, 2, 3, 4, 5, 6], format_func=lambda v: "Not specified" if v is None else str(v))
+    lift = c9.selectbox("Lifts", [None, 0, 1, 2, 3, 4], format_func=lambda v: "Not specified" if v is None else str(v))
+    furnished = c10.selectbox("Furnishing", cats["Furnished_status"])
 
-    # FIX 2 — locality fallback: median is safer than mean
-    loc_enc = locality_mean.get(locality, np.median(list(locality_mean.values())))
+    c11, c12 = st.columns(2)
+    status = c11.selectbox("Possession status", cats["Status"])
+    age = c12.selectbox("New or resale", cats["neworold"])
 
-    row = {
-        'Area':                     area,
-        'BHK':                      bhk,
-        'Bathroom':                 bathroom,
-        'Parking':                  parking,
-        'log_locality':             np.log1p(loc_enc),
-        'log_area':                 np.log1p(area),
-        'area_per_bhk':             apb,
-        'log_area_per_bhk':         np.log1p(apb),
-        # FIX 3 — bathroom/bhk safety
-        'bath_per_bhk':             bathroom / bhk if bhk != 0 else 0,
-        'bhk_x_bath':               bhk * bathroom,
-        'bhk_x_area':               bhk * area,
-        'park_x_bhk':               parking * bhk,
-        'Transaction_Resale':       1 if transaction == 'Resale' else 0,
-        'Type_Builder_Floor':       1 if prop_type == 'Builder_Floor' else 0,
-        'Furnishing_Furnished':     1 if furnishing == 'Furnished' else 0,
-        'Furnishing_Unfurnished':   1 if furnishing == 'Unfurnished' else 0,
-        'Status_Ready_to_move':     1 if status == 'Ready_to_move' else 0,
-    }
+    with st.expander("Advanced: fine-tune location"):
+        st.caption("Defaults to the typical coordinates of the chosen locality.")
+        a, b = st.columns(2)
+        lat = a.number_input("Latitude", value=float(lat0), format="%.5f", step=0.001)
+        lon = b.number_input("Longitude", value=float(lon0), format="%.5f", step=0.001)
 
-    input_df = pd.DataFrame([row])
+    go = st.button("Predict price", type="primary", use_container_width=True)
 
-    # FIX 4 — reindex is cleaner than manual loop
-    input_df = input_df.reindex(columns=feature_cols, fill_value=0)
+with right:
+    st.subheader("Estimate")
+    if go:
+        price, low, high = predict_price(model, meta, {
+            "area": area, "latitude": lat, "longitude": lon, "Bedrooms": beds, "Bathrooms": baths,
+            "Balcony": np.nan if balc is None else balc,
+            "parking": np.nan if parking is None else parking,
+            "Lift": np.nan if lift is None else lift,
+            "city": city, "Status": status, "neworold": age,
+            "Furnished_status": furnished, "type_of_building": btype, "locality": locality_for_model,
+        })
+        st.metric("Estimated price", format_inr(price))
+        st.write(f"**Likely range (80%):** {format_inr(low)} – {format_inr(high)}")
+        psf = price / area
+        st.write(f"**Price per sq ft:** ₹ {psf:,.0f}")
+        st.write(f"**Typical in {loc_choice if loc_choice != 'Other / not listed' else city}:** ₹ {ref_psf:,.0f} / sq ft")
+        diff = (psf / ref_psf - 1) * 100
+        st.caption(f"This estimate is {abs(diff):.0f}% {'above' if diff >= 0 else 'below'} the typical listing price per sq ft in this area.")
+    else:
+        st.info("Fill in the details and click **Predict price**.")
 
-    input_scaled    = scaler.transform(input_df)
-    pred_log        = model.predict(input_scaled)[0]
-    predicted_price = np.expm1(pred_log)
+    with st.expander("Model performance (held-out test set)"):
+        m = meta["metrics"]
+        st.write(f"R²: **{m['r2']:.3f}**  ·  Median error: **{format_inr(m['median_abs_error'])}**  ·  "
+                 f"Mean abs. % error: **{m['mape_pct']:.1f}%**")
+        st.caption(f"Trained on {m['n_train']:,} listings, validated on {m['n_val']:,}, tested on {m['n_test']:,}.")
+        imp = pd.DataFrame(meta["importances"], columns=["feature", "importance"]).set_index("feature")
+        st.bar_chart(imp)
 
-    def fmt(v):
-        return f"₹{v/1e7:.2f} Cr" if v >= 1e7 else f"₹{v/1e5:.1f} L"
-
-    st.markdown(f"""
-    <div class="predict-box">
-        <div class="predict-title">Estimated Property Price</div>
-        <div class="predict-price">{fmt(predicted_price)}</div>
-        <div class="predict-sub">({locality} · {bhk} BHK · {area} sq ft)</div>
-    </div>
-    """, unsafe_allow_html=True)
-
-    lower = predicted_price * 0.90
-    upper = predicted_price * 1.10
-    st.info(f"📉 Likely range: **{fmt(lower)}** — **{fmt(upper)}** (±10%)")
+st.caption("Estimates are statistical predictions from listing data, not valuations or financial advice.")
