@@ -1,0 +1,4344 @@
+{
+  "cities": [
+    "Faridabad",
+    "Ghaziabad",
+    "Greater Noida",
+    "Gurgaon",
+    "New Delhi",
+    "Noida",
+    "Other"
+  ],
+  "localities": {
+    "Faridabad": [
+      {
+        "name": "Sector 88",
+        "n": 27,
+        "lat": 28.4166908888947,
+        "lon": 77.354919473033,
+        "median_price_sqft": 3809.5238095238096,
+        "median_price": 6000000.0
+      },
+      {
+        "name": "Sector 86",
+        "n": 25,
+        "lat": 28.404368478163,
+        "lon": 77.34233,
+        "median_price_sqft": 3605.1502145922746,
+        "median_price": 4400000.0
+      },
+      {
+        "name": "Sector 70",
+        "n": 22,
+        "lat": 28.3378598374231,
+        "lon": 77.3519246076565,
+        "median_price_sqft": 3546.0979869473294,
+        "median_price": 4000000.0
+      },
+      {
+        "name": "Sector 77",
+        "n": 21,
+        "lat": 28.368101,
+        "lon": 77.3721674,
+        "median_price_sqft": 3244.4124008651766,
+        "median_price": 3600000.0
+      },
+      {
+        "name": "Sector 21C",
+        "n": 18,
+        "lat": 28.4303503,
+        "lon": 77.2956126,
+        "median_price_sqft": 5081.39534883721,
+        "median_price": 10150000.0
+      },
+      {
+        "name": "Sector 78",
+        "n": 17,
+        "lat": 28.3839618662127,
+        "lon": 77.3684844005374,
+        "median_price_sqft": 3555.941023417173,
+        "median_price": 3800000.0
+      },
+      {
+        "name": "Sector 49",
+        "n": 15,
+        "lat": 28.3920951,
+        "lon": 77.267223,
+        "median_price_sqft": 4629.62962962963,
+        "median_price": 4500000.0
+      },
+      {
+        "name": "Sector 89",
+        "n": 15,
+        "lat": 28.4226078945565,
+        "lon": 77.3670774,
+        "median_price_sqft": 4187.5,
+        "median_price": 6700000.0
+      },
+      {
+        "name": "Sector 75",
+        "n": 14,
+        "lat": 28.3679201,
+        "lon": 77.34646318434321,
+        "median_price_sqft": 3058.8852834510403,
+        "median_price": 4000000.0
+      },
+      {
+        "name": "Sector 85",
+        "n": 13,
+        "lat": 28.4042306,
+        "lon": 77.3559561,
+        "median_price_sqft": 3600.0,
+        "median_price": 5000000.0
+      },
+      {
+        "name": "Greenfield Colony",
+        "n": 12,
+        "lat": 28.4661095,
+        "lon": 77.3000508,
+        "median_price_sqft": 4083.3333333333335,
+        "median_price": 5000000.0
+      },
+      {
+        "name": "Sector 11",
+        "n": 11,
+        "lat": 28.3748149,
+        "lon": 77.3195231,
+        "median_price_sqft": 4444.444444444444,
+        "median_price": 6000000.0
+      },
+      {
+        "name": "Sector 82",
+        "n": 11,
+        "lat": 28.3970475678259,
+        "lon": 77.353173,
+        "median_price_sqft": 3937.0078740157483,
+        "median_price": 8000000.0
+      },
+      {
+        "name": "Sector 84",
+        "n": 11,
+        "lat": 28.4044795,
+        "lon": 77.3709325,
+        "median_price_sqft": 3928.5714285714284,
+        "median_price": 4500000.0
+      },
+      {
+        "name": "Sector 87",
+        "n": 11,
+        "lat": 28.419868,
+        "lon": 77.341057,
+        "median_price_sqft": 3902.439024390244,
+        "median_price": 4740000.0
+      },
+      {
+        "name": "Charmwood Village",
+        "n": 10,
+        "lat": 28.4913752,
+        "lon": 77.2908478323763,
+        "median_price_sqft": 6645.882047285009,
+        "median_price": 9750000.0
+      },
+      {
+        "name": "Sainik Colony",
+        "n": 10,
+        "lat": 28.39802771002197,
+        "lon": 77.27522363916015,
+        "median_price_sqft": 4360.694125253316,
+        "median_price": 5600000.0
+      },
+      {
+        "name": "Sector 21D",
+        "n": 10,
+        "lat": 28.4207489590878,
+        "lon": 77.2908501858095,
+        "median_price_sqft": 5153.877005347594,
+        "median_price": 9000000.0
+      },
+      {
+        "name": "Sector 45",
+        "n": 9,
+        "lat": 28.4509204,
+        "lon": 77.3008634,
+        "median_price_sqft": 4941.176470588235,
+        "median_price": 6500000.0
+      },
+      {
+        "name": "Sector 76",
+        "n": 9,
+        "lat": 28.41098104,
+        "lon": 77.34688737,
+        "median_price_sqft": 3248.811410459588,
+        "median_price": 3900000.0
+      },
+      {
+        "name": "Sector 37",
+        "n": 8,
+        "lat": 28.477145297994348,
+        "lon": 77.31155055405273,
+        "median_price_sqft": 5035.211267605634,
+        "median_price": 9000000.0
+      },
+      {
+        "name": "Sector 46",
+        "n": 8,
+        "lat": 28.439053652619947,
+        "lon": 77.3002422441206,
+        "median_price_sqft": 4392.982456140351,
+        "median_price": 7500000.0
+      },
+      {
+        "name": "Springfield Colony",
+        "n": 8,
+        "lat": 28.45022964477539,
+        "lon": 77.312379,
+        "median_price_sqft": 4514.411027568922,
+        "median_price": 5650000.0
+      },
+      {
+        "name": "Sector 48",
+        "n": 7,
+        "lat": 28.410634342974,
+        "lon": 77.2862061141823,
+        "median_price_sqft": 3914.0811455847256,
+        "median_price": 7800000.0
+      },
+      {
+        "name": "Ashoka Enclave Part 1",
+        "n": 6,
+        "lat": 28.468477249145508,
+        "lon": 77.31389617919922,
+        "median_price_sqft": 4635.746606334842,
+        "median_price": 6100000.0
+      },
+      {
+        "name": "Ashoka Enclave Part 2",
+        "n": 6,
+        "lat": 28.4801967,
+        "lon": 77.3113014,
+        "median_price_sqft": 4866.666666666666,
+        "median_price": 6650000.0
+      },
+      {
+        "name": "Sector 21",
+        "n": 6,
+        "lat": 28.4314701150682,
+        "lon": 77.293314147123,
+        "median_price_sqft": 5192.084942084942,
+        "median_price": 9000000.0
+      },
+      {
+        "name": "Sector 80",
+        "n": 6,
+        "lat": 28.3751182042664,
+        "lon": 77.3487447637588,
+        "median_price_sqft": 3766.085512660855,
+        "median_price": 5900000.0
+      },
+      {
+        "name": "Sector 29",
+        "n": 5,
+        "lat": 28.4339805,
+        "lon": 77.3239236,
+        "median_price_sqft": 4444.444444444444,
+        "median_price": 6500000.0
+      },
+      {
+        "name": "Sector 30",
+        "n": 5,
+        "lat": 28.4478379275138,
+        "lon": 77.3187795801133,
+        "median_price_sqft": 5760.0,
+        "median_price": 7000000.0
+      },
+      {
+        "name": "Sector 65",
+        "n": 5,
+        "lat": 28.3113031,
+        "lon": 77.339111,
+        "median_price_sqft": 4235.294117647059,
+        "median_price": 4000000.0
+      },
+      {
+        "name": "Sector 81",
+        "n": 5,
+        "lat": 28.3924416,
+        "lon": 77.3442485,
+        "median_price_sqft": 5013.1926121372035,
+        "median_price": 9500000.0
+      },
+      {
+        "name": "Suraj Kund",
+        "n": 5,
+        "lat": 28.4818021,
+        "lon": 77.28462764,
+        "median_price_sqft": 6903.765690376569,
+        "median_price": 20000000.0
+      },
+      {
+        "name": "Indraprastha Colony",
+        "n": 4,
+        "lat": 28.4524215,
+        "lon": 77.317156,
+        "median_price_sqft": 5323.886639676113,
+        "median_price": 6000000.0
+      },
+      {
+        "name": "Neharpar",
+        "n": 4,
+        "lat": 28.4007817073804,
+        "lon": 77.3408206,
+        "median_price_sqft": 3291.539032325577,
+        "median_price": 2920000.0
+      },
+      {
+        "name": "Sector 19",
+        "n": 4,
+        "lat": 28.425787,
+        "lon": 77.3165122,
+        "median_price_sqft": 4556.912251655629,
+        "median_price": 6350000.0
+      },
+      {
+        "name": "Sector 28",
+        "n": 4,
+        "lat": 28.43327522277832,
+        "lon": 77.31428527832031,
+        "median_price_sqft": 6568.6274509803925,
+        "median_price": 13500000.0
+      },
+      {
+        "name": "Sector 31",
+        "n": 4,
+        "lat": 28.4479658,
+        "lon": 77.3139394,
+        "median_price_sqft": 5021.531434150424,
+        "median_price": 8500000.0
+      },
+      {
+        "name": "Sector 8",
+        "n": 4,
+        "lat": 28.362361,
+        "lon": 77.3353025,
+        "median_price_sqft": 4302.777777777777,
+        "median_price": 9000000.0
+      },
+      {
+        "name": "Ballabhgarh",
+        "n": 3,
+        "lat": 28.3393125,
+        "lon": 77.326022,
+        "median_price_sqft": 4705.882352941177,
+        "median_price": 4000000.0
+      },
+      {
+        "name": "SRS Pearl",
+        "n": 3,
+        "lat": 28.414281,
+        "lon": 77.345609,
+        "median_price_sqft": 3752.34521575985,
+        "median_price": 4000000.0
+      },
+      {
+        "name": "Sector 10",
+        "n": 3,
+        "lat": 28.37553024291992,
+        "lon": 77.32618713378906,
+        "median_price_sqft": 4199.3281075028,
+        "median_price": 5500000.0
+      },
+      {
+        "name": "Sector 16",
+        "n": 3,
+        "lat": 28.4091579,
+        "lon": 77.3223034,
+        "median_price_sqft": 5555.555555555556,
+        "median_price": 12000000.0
+      },
+      {
+        "name": "Sector 43",
+        "n": 3,
+        "lat": 28.4528905,
+        "lon": 77.291966,
+        "median_price_sqft": 6467.661691542288,
+        "median_price": 13000000.0
+      },
+      {
+        "name": "Sector 63",
+        "n": 3,
+        "lat": 28.3195765257323,
+        "lon": 77.3311985098837,
+        "median_price_sqft": 2982.3529411764707,
+        "median_price": 4630000.0
+      }
+    ],
+    "Ghaziabad": [
+      {
+        "name": "Raj Nagar Extension",
+        "n": 296,
+        "lat": 28.7040534,
+        "lon": 77.4298205,
+        "median_price_sqft": 3333.3333333333335,
+        "median_price": 3700000.0
+      },
+      {
+        "name": "Indirapuram",
+        "n": 262,
+        "lat": 28.645341,
+        "lon": 77.3696259,
+        "median_price_sqft": 5000.0,
+        "median_price": 6000000.0
+      },
+      {
+        "name": "NH 24",
+        "n": 137,
+        "lat": 28.654612,
+        "lon": 77.4757,
+        "median_price_sqft": 3375.5274261603377,
+        "median_price": 3500000.0
+      },
+      {
+        "name": "Crossings Republik",
+        "n": 105,
+        "lat": 28.6297895,
+        "lon": 77.435989,
+        "median_price_sqft": 3333.3333333333335,
+        "median_price": 4520000.0
+      },
+      {
+        "name": "Siddhartha Vihar",
+        "n": 78,
+        "lat": 28.646286,
+        "lon": 77.406051,
+        "median_price_sqft": 5026.34681552417,
+        "median_price": 5800000.0
+      },
+      {
+        "name": "Bhopura",
+        "n": 58,
+        "lat": 28.7264530405965,
+        "lon": 77.337353,
+        "median_price_sqft": 3098.7746936734184,
+        "median_price": 3475000.0
+      },
+      {
+        "name": "Sahibabad",
+        "n": 57,
+        "lat": 28.6644882,
+        "lon": 77.3474938,
+        "median_price_sqft": 4400.0,
+        "median_price": 4600000.0
+      },
+      {
+        "name": "Vaishali",
+        "n": 48,
+        "lat": 28.6441755,
+        "lon": 77.336519,
+        "median_price_sqft": 5714.285714285715,
+        "median_price": 9500000.0
+      },
+      {
+        "name": "Vasundhara",
+        "n": 46,
+        "lat": 28.659557,
+        "lon": 77.3747659,
+        "median_price_sqft": 5341.388650663587,
+        "median_price": 7250000.0
+      },
+      {
+        "name": "Shalimar Garden Extension 1",
+        "n": 44,
+        "lat": 28.6900486,
+        "lon": 77.34053802490234,
+        "median_price_sqft": 3505.31914893617,
+        "median_price": 3550000.0
+      },
+      {
+        "name": "Govindpuram",
+        "n": 43,
+        "lat": 28.6896453,
+        "lon": 77.4933302,
+        "median_price_sqft": 3284.6715328467153,
+        "median_price": 3540000.0
+      },
+      {
+        "name": "Shalimar Garden Extension 2",
+        "n": 38,
+        "lat": 28.685969,
+        "lon": 77.3508975,
+        "median_price_sqft": 3771.551724137931,
+        "median_price": 3550000.0
+      },
+      {
+        "name": "Kaushambi",
+        "n": 32,
+        "lat": 28.6420559,
+        "lon": 77.323499,
+        "median_price_sqft": 5567.3516282088385,
+        "median_price": 6500000.0
+      },
+      {
+        "name": "Ahinsa Khand 2",
+        "n": 31,
+        "lat": 28.6428477,
+        "lon": 77.3826371,
+        "median_price_sqft": 4516.129032258064,
+        "median_price": 7000000.0
+      },
+      {
+        "name": "Niti Khand-Indirapuram",
+        "n": 29,
+        "lat": 28.6452824,
+        "lon": 77.3621025,
+        "median_price_sqft": 4840.0,
+        "median_price": 4500000.0
+      },
+      {
+        "name": "Mohan Nagar",
+        "n": 26,
+        "lat": 28.680330338244627,
+        "lon": 77.377927,
+        "median_price_sqft": 4978.87323943662,
+        "median_price": 6200000.0
+      },
+      {
+        "name": "Gyan Khand 1",
+        "n": 25,
+        "lat": 28.641779,
+        "lon": 77.3502969,
+        "median_price_sqft": 4411.764705882353,
+        "median_price": 4500000.0
+      },
+      {
+        "name": "Lal Kuan",
+        "n": 23,
+        "lat": 28.6336095,
+        "lon": 77.4713825,
+        "median_price_sqft": 3444.4444444444443,
+        "median_price": 3300000.0
+      },
+      {
+        "name": "Sector 5 Vaishali",
+        "n": 23,
+        "lat": 28.643642,
+        "lon": 77.34532,
+        "median_price_sqft": 5084.745762711865,
+        "median_price": 4600000.0
+      },
+      {
+        "name": "Sector 4 Vaishali",
+        "n": 21,
+        "lat": 28.6470245,
+        "lon": 77.3402594,
+        "median_price_sqft": 5844.1558441558445,
+        "median_price": 6500000.0
+      },
+      {
+        "name": "DLF Ankur Vihar",
+        "n": 19,
+        "lat": 28.737905502319336,
+        "lon": 77.26736450195312,
+        "median_price_sqft": 2909.090909090909,
+        "median_price": 2400000.0
+      },
+      {
+        "name": "Sector 5 Rajendra Nagar",
+        "n": 19,
+        "lat": 28.6809994,
+        "lon": 77.356998,
+        "median_price_sqft": 4117.64705882353,
+        "median_price": 3900000.0
+      },
+      {
+        "name": "Shalimar garden",
+        "n": 19,
+        "lat": 28.6895689,
+        "lon": 77.3386129,
+        "median_price_sqft": 4000.0,
+        "median_price": 3500000.0
+      },
+      {
+        "name": "G T Road",
+        "n": 18,
+        "lat": 28.678090090865552,
+        "lon": 77.3492951427093,
+        "median_price_sqft": 4437.869822485207,
+        "median_price": 6400000.0
+      },
+      {
+        "name": "Rajendra Nagar",
+        "n": 17,
+        "lat": 28.6817665,
+        "lon": 77.3636535,
+        "median_price_sqft": 4153.846153846154,
+        "median_price": 4500000.0
+      },
+      {
+        "name": "Sector 6 Vaishali",
+        "n": 17,
+        "lat": 28.648588180541992,
+        "lon": 77.35334014892578,
+        "median_price_sqft": 5308.641975308642,
+        "median_price": 4700000.0
+      },
+      {
+        "name": "Shipra Suncity",
+        "n": 17,
+        "lat": 28.6358105,
+        "lon": 77.3739109,
+        "median_price_sqft": 5104.166666666667,
+        "median_price": 5000000.0
+      },
+      {
+        "name": "Vaibhav Khand",
+        "n": 17,
+        "lat": 28.6357095,
+        "lon": 77.3655985,
+        "median_price_sqft": 5125.0,
+        "median_price": 7559999.999999999
+      },
+      {
+        "name": "Wave City",
+        "n": 17,
+        "lat": 28.664371,
+        "lon": 77.488789,
+        "median_price_sqft": 3333.3333333333335,
+        "median_price": 3000000.0
+      },
+      {
+        "name": "Shakti Khand 2",
+        "n": 16,
+        "lat": 28.6467392,
+        "lon": 77.3709475,
+        "median_price_sqft": 4684.523809523809,
+        "median_price": 5595000.0
+      },
+      {
+        "name": "Sector 1 Vaishali",
+        "n": 15,
+        "lat": 28.6341305,
+        "lon": 77.3338579,
+        "median_price_sqft": 5333.333333333333,
+        "median_price": 5100000.0
+      },
+      {
+        "name": "Sector 5 Vasundhara",
+        "n": 15,
+        "lat": 28.66092300415039,
+        "lon": 77.37889862060547,
+        "median_price_sqft": 4722.222222222223,
+        "median_price": 4700000.0
+      },
+      {
+        "name": "Ahinsa Khand 1",
+        "n": 12,
+        "lat": 28.6402995,
+        "lon": 77.369307,
+        "median_price_sqft": 5727.783923303835,
+        "median_price": 7500000.0
+      },
+      {
+        "name": "Chander Nagar",
+        "n": 12,
+        "lat": 28.6654924,
+        "lon": 77.3297195,
+        "median_price_sqft": 5777.777777777777,
+        "median_price": 6500000.0
+      },
+      {
+        "name": "Nyay Khand 1",
+        "n": 12,
+        "lat": 28.6350245,
+        "lon": 77.35388822859085,
+        "median_price_sqft": 4697.417840375587,
+        "median_price": 5000000.0
+      },
+      {
+        "name": "Shakti Khand 4",
+        "n": 12,
+        "lat": 28.6508286,
+        "lon": 77.3713991,
+        "median_price_sqft": 5282.051282051281,
+        "median_price": 5750000.0
+      },
+      {
+        "name": "Garhi",
+        "n": 11,
+        "lat": 28.7029737861739,
+        "lon": 77.426363,
+        "median_price_sqft": 3703.703703703704,
+        "median_price": 4600000.0
+      },
+      {
+        "name": "Pratap Vihar",
+        "n": 11,
+        "lat": 28.6499845,
+        "lon": 77.4065455,
+        "median_price_sqft": 3888.8888888888887,
+        "median_price": 4500000.0
+      },
+      {
+        "name": "Sector 1 Vasundhara",
+        "n": 11,
+        "lat": 28.664996,
+        "lon": 77.3898739,
+        "median_price_sqft": 4200.0,
+        "median_price": 4200000.0
+      },
+      {
+        "name": "Sector 2 Rajendra Nagar",
+        "n": 10,
+        "lat": 28.687614,
+        "lon": 77.351924,
+        "median_price_sqft": 4244.444444444445,
+        "median_price": 3600000.0
+      },
+      {
+        "name": "Mahagunpuram",
+        "n": 9,
+        "lat": 28.666056,
+        "lon": 77.479854,
+        "median_price_sqft": 3222.222222222222,
+        "median_price": 3300000.0
+      },
+      {
+        "name": "Ramprastha Colony",
+        "n": 9,
+        "lat": 28.6589432,
+        "lon": 77.32223,
+        "median_price_sqft": 5444.444444444444,
+        "median_price": 5400000.0
+      },
+      {
+        "name": "Rampuri",
+        "n": 9,
+        "lat": 28.6708215,
+        "lon": 77.3291634,
+        "median_price_sqft": 5058.823529411765,
+        "median_price": 4500000.0
+      },
+      {
+        "name": "Sector 3 Rajendra Nagar",
+        "n": 9,
+        "lat": 28.6853926,
+        "lon": 77.364315,
+        "median_price_sqft": 5272.727272727273,
+        "median_price": 5000000.0
+      },
+      {
+        "name": "Sector 3 Vasundhara",
+        "n": 9,
+        "lat": 28.66326713562012,
+        "lon": 77.38449096679688,
+        "median_price_sqft": 4863.636363636364,
+        "median_price": 5700000.0
+      },
+      {
+        "name": "Shakti Khand 3",
+        "n": 9,
+        "lat": 28.650059,
+        "lon": 77.36593627929688,
+        "median_price_sqft": 5000.0,
+        "median_price": 5500000.0
+      },
+      {
+        "name": "Gyan Khand 2",
+        "n": 8,
+        "lat": 28.6436225,
+        "lon": 77.352839,
+        "median_price_sqft": 4108.823529411765,
+        "median_price": 3700000.0
+      },
+      {
+        "name": "Neeti Khand 1",
+        "n": 8,
+        "lat": 28.6446455,
+        "lon": 77.3645325,
+        "median_price_sqft": 4861.111111111111,
+        "median_price": 4525000.0
+      },
+      {
+        "name": "Ram Prastha",
+        "n": 8,
+        "lat": 28.657986,
+        "lon": 77.320947,
+        "median_price_sqft": 5607.467452714322,
+        "median_price": 6000000.0
+      },
+      {
+        "name": "Nehru Nagar 3",
+        "n": 7,
+        "lat": 28.65544319152832,
+        "lon": 77.44419860839844,
+        "median_price_sqft": 4777.777777777777,
+        "median_price": 4300000.0
+      },
+      {
+        "name": "Sector 12 Pratap Vihar",
+        "n": 7,
+        "lat": 28.645360946655277,
+        "lon": 77.41020965576172,
+        "median_price_sqft": 3801.6528925619837,
+        "median_price": 3200000.0
+      },
+      {
+        "name": "Surya Nagar",
+        "n": 7,
+        "lat": 28.6636624,
+        "lon": 77.3310584,
+        "median_price_sqft": 5978.260869565217,
+        "median_price": 8000000.0
+      },
+      {
+        "name": "Brij Vihar",
+        "n": 6,
+        "lat": 28.6693269,
+        "lon": 77.336336,
+        "median_price_sqft": 5071.428571428572,
+        "median_price": 7500000.0
+      },
+      {
+        "name": "Chiranjiv Vihar",
+        "n": 6,
+        "lat": 28.6701035,
+        "lon": 77.4724725,
+        "median_price_sqft": 3362.0628753090778,
+        "median_price": 5000000.0
+      },
+      {
+        "name": "Dlf Dilshad Extension",
+        "n": 6,
+        "lat": 28.694197,
+        "lon": 77.329295,
+        "median_price_sqft": 3965.686274509804,
+        "median_price": 3850000.0
+      },
+      {
+        "name": "Kavi Nagar",
+        "n": 6,
+        "lat": 28.663185119628903,
+        "lon": 77.45219421386719,
+        "median_price_sqft": 6335.526315789473,
+        "median_price": 11000000.0
+      },
+      {
+        "name": "Raj Nagar",
+        "n": 6,
+        "lat": 28.68210746270752,
+        "lon": 77.4465786897461,
+        "median_price_sqft": 6555.555555555556,
+        "median_price": 12500000.0
+      },
+      {
+        "name": "Tronica City",
+        "n": 6,
+        "lat": 28.779187237583052,
+        "lon": 77.2652035347517,
+        "median_price_sqft": 4344.684528954192,
+        "median_price": 5385000.0
+      },
+      {
+        "name": "Abhay Khand",
+        "n": 5,
+        "lat": 28.6370524,
+        "lon": 77.344619,
+        "median_price_sqft": 5400.0,
+        "median_price": 6000000.0
+      },
+      {
+        "name": "Chipiyana Buzurg",
+        "n": 5,
+        "lat": 28.6259164,
+        "lon": 77.4528639,
+        "median_price_sqft": 3808.2437275985662,
+        "median_price": 3700000.0
+      },
+      {
+        "name": "DLF Dilshad Extention II",
+        "n": 5,
+        "lat": 28.63630485534668,
+        "lon": 77.43341827392578,
+        "median_price_sqft": 3571.4285714285716,
+        "median_price": 2900000.0
+      },
+      {
+        "name": "Gulmohur Greens",
+        "n": 5,
+        "lat": 28.686595916748047,
+        "lon": 77.3729476928711,
+        "median_price_sqft": 5352.112676056338,
+        "median_price": 9500000.0
+      },
+      {
+        "name": "Loni",
+        "n": 5,
+        "lat": 28.7662162,
+        "lon": 77.263605,
+        "median_price_sqft": 3118.64406779661,
+        "median_price": 3000000.0
+      },
+      {
+        "name": "Sector 10 Vasundhara",
+        "n": 5,
+        "lat": 28.66301727294922,
+        "lon": 77.36760711669922,
+        "median_price_sqft": 5119.047619047619,
+        "median_price": 4300000.0
+      },
+      {
+        "name": "Sector 11 Vasundhara",
+        "n": 5,
+        "lat": 28.6558455,
+        "lon": 77.368224,
+        "median_price_sqft": 5652.173913043478,
+        "median_price": 9000000.0
+      },
+      {
+        "name": "Sector 3 Vaishali",
+        "n": 5,
+        "lat": 28.643113,
+        "lon": 77.338472,
+        "median_price_sqft": 5373.134328358209,
+        "median_price": 4500000.0
+      },
+      {
+        "name": "Shastri Nagar",
+        "n": 5,
+        "lat": 28.6711424,
+        "lon": 77.478156,
+        "median_price_sqft": 3356.6433566433566,
+        "median_price": 4600000.0
+      },
+      {
+        "name": "Vikram Enclave",
+        "n": 5,
+        "lat": 28.68974,
+        "lon": 77.332795,
+        "median_price_sqft": 3636.3636363636365,
+        "median_price": 4000000.0
+      },
+      {
+        "name": "Ahinsa Khand",
+        "n": 4,
+        "lat": 28.63857695053828,
+        "lon": 77.37643320595697,
+        "median_price_sqft": 4537.202380952381,
+        "median_price": 6350000.0
+      },
+      {
+        "name": "Anand Vihar",
+        "n": 4,
+        "lat": 28.63886719786987,
+        "lon": 77.32408520937369,
+        "median_price_sqft": 6136.0727854429115,
+        "median_price": 9700000.0
+      },
+      {
+        "name": "Bahrampur",
+        "n": 4,
+        "lat": 28.63363759,
+        "lon": 77.40378377,
+        "median_price_sqft": 3708.3333333333335,
+        "median_price": 2650000.0
+      },
+      {
+        "name": "Chiranjeev Vihar",
+        "n": 4,
+        "lat": 28.6698529,
+        "lon": 77.4656257,
+        "median_price_sqft": 3302.7305460683433,
+        "median_price": 3300000.0
+      },
+      {
+        "name": "Dasna",
+        "n": 4,
+        "lat": 28.6784878,
+        "lon": 77.518043,
+        "median_price_sqft": 3392.857142857143,
+        "median_price": 3250000.0
+      },
+      {
+        "name": "Judges Enclave",
+        "n": 4,
+        "lat": 28.64385025,
+        "lon": 77.3827129,
+        "median_price_sqft": 4930.571437906361,
+        "median_price": 5650000.0
+      },
+      {
+        "name": "Mahurali",
+        "n": 4,
+        "lat": 28.664055,
+        "lon": 77.488692,
+        "median_price_sqft": 3367.2506738544475,
+        "median_price": 3500000.0
+      },
+      {
+        "name": "Mehrauli",
+        "n": 4,
+        "lat": 28.65933,
+        "lon": 77.479254,
+        "median_price_sqft": 3257.575757575758,
+        "median_price": 3250000.0
+      },
+      {
+        "name": "NH 58",
+        "n": 4,
+        "lat": 28.700347999999998,
+        "lon": 77.43759465,
+        "median_price_sqft": 3835.852207919179,
+        "median_price": 5400000.0
+      },
+      {
+        "name": "Neeti Khand 2",
+        "n": 4,
+        "lat": 28.6446415,
+        "lon": 77.371908,
+        "median_price_sqft": 5551.282051282051,
+        "median_price": 6950000.0
+      },
+      {
+        "name": "Sain Vihar",
+        "n": 4,
+        "lat": 28.628639599429647,
+        "lon": 77.43614345,
+        "median_price_sqft": 3221.398795738768,
+        "median_price": 4850000.0
+      },
+      {
+        "name": "Sanjay Nagar",
+        "n": 4,
+        "lat": 28.6957931,
+        "lon": 77.4540746,
+        "median_price_sqft": 4156.92007797271,
+        "median_price": 2550000.0
+      },
+      {
+        "name": "Sector 15 Vasundhara",
+        "n": 4,
+        "lat": 28.652444469738768,
+        "lon": 77.36052050458984,
+        "median_price_sqft": 5818.713450292398,
+        "median_price": 9595000.0
+      },
+      {
+        "name": "Sector 2 Vaishali",
+        "n": 4,
+        "lat": 28.638839360839846,
+        "lon": 77.34054507714843,
+        "median_price_sqft": 4803.921568627451,
+        "median_price": 4200000.0
+      },
+      {
+        "name": "Sector 9 Vaishali",
+        "n": 4,
+        "lat": 28.65357183328585,
+        "lon": 77.3505715210714,
+        "median_price_sqft": 5441.956227436824,
+        "median_price": 8000000.0
+      },
+      {
+        "name": "Shahpur Bamheta",
+        "n": 4,
+        "lat": 28.6464362,
+        "lon": 77.4743766,
+        "median_price_sqft": 3203.9473684210525,
+        "median_price": 2815000.0
+      },
+      {
+        "name": "Shyam Park Extension",
+        "n": 4,
+        "lat": 28.68011474609375,
+        "lon": 77.36381530761719,
+        "median_price_sqft": 4239.463601532567,
+        "median_price": 4925000.0
+      },
+      {
+        "name": "Gyan Khand 3",
+        "n": 3,
+        "lat": 28.645341,
+        "lon": 77.3549293203382,
+        "median_price_sqft": 4705.882352941177,
+        "median_price": 4500000.0
+      },
+      {
+        "name": "Hapur Road",
+        "n": 3,
+        "lat": 28.6748094,
+        "lon": 77.4596782,
+        "median_price_sqft": 3066.6666666666665,
+        "median_price": 4000000.0
+      },
+      {
+        "name": "Kamma 1",
+        "n": 3,
+        "lat": 28.645769,
+        "lon": 77.38511,
+        "median_price_sqft": 6055.045871559633,
+        "median_price": 6000000.0
+      },
+      {
+        "name": "Morta",
+        "n": 3,
+        "lat": 28.7219988470787,
+        "lon": 77.4460352324498,
+        "median_price_sqft": 2937.853107344633,
+        "median_price": 2600000.0
+      },
+      {
+        "name": "NH 91",
+        "n": 3,
+        "lat": 28.617694176992,
+        "lon": 77.500299,
+        "median_price_sqft": 4444.444444444444,
+        "median_price": 4000000.0
+      },
+      {
+        "name": "Nehru Nagar",
+        "n": 3,
+        "lat": 28.6588755,
+        "lon": 77.4432295,
+        "median_price_sqft": 4285.714285714285,
+        "median_price": 3500000.0
+      },
+      {
+        "name": "Ramprastha Greens",
+        "n": 3,
+        "lat": 28.6495115,
+        "lon": 77.3474545,
+        "median_price_sqft": 6121.212121212121,
+        "median_price": 13500000.0
+      },
+      {
+        "name": "Sector 13 Vasundhara",
+        "n": 3,
+        "lat": 28.6543295,
+        "lon": 77.3646575,
+        "median_price_sqft": 5090.909090909091,
+        "median_price": 5600000.0
+      },
+      {
+        "name": "Shakti Khand",
+        "n": 3,
+        "lat": 28.6485932413911,
+        "lon": 77.363187,
+        "median_price_sqft": 4090.909090909091,
+        "median_price": 3600000.0
+      },
+      {
+        "name": "Sunder Puri",
+        "n": 3,
+        "lat": 28.652913,
+        "lon": 77.423591,
+        "median_price_sqft": 4735.59589581689,
+        "median_price": 5500000.0
+      },
+      {
+        "name": "Swaran Jayanti Puram",
+        "n": 3,
+        "lat": 28.6896586,
+        "lon": 77.4863846,
+        "median_price_sqft": 3666.6666666666665,
+        "median_price": 3900000.0
+      },
+      {
+        "name": "Vivekanand Nagar",
+        "n": 3,
+        "lat": 28.6528079,
+        "lon": 77.4509164,
+        "median_price_sqft": 9000.0,
+        "median_price": 9000000.0
+      }
+    ],
+    "Greater Noida": [
+      {
+        "name": "Greater Noida West",
+        "n": 181,
+        "lat": 28.605958,
+        "lon": 77.444512,
+        "median_price_sqft": 3888.5288399222295,
+        "median_price": 4500000.0
+      },
+      {
+        "name": "Noida Extension",
+        "n": 89,
+        "lat": 28.604884,
+        "lon": 77.425914,
+        "median_price_sqft": 3853.8205980066446,
+        "median_price": 4500000.0
+      },
+      {
+        "name": "Yamuna Expressway",
+        "n": 55,
+        "lat": 28.34987449645996,
+        "lon": 77.519155,
+        "median_price_sqft": 3636.3636363636365,
+        "median_price": 4000000.0
+      },
+      {
+        "name": "Zeta 1",
+        "n": 48,
+        "lat": 28.4993735437355,
+        "lon": 77.52161595858668,
+        "median_price_sqft": 3652.1739130434785,
+        "median_price": 5350000.0
+      },
+      {
+        "name": "Sector 16",
+        "n": 44,
+        "lat": 28.577868,
+        "lon": 77.48322,
+        "median_price_sqft": 3941.2137649255046,
+        "median_price": 4520000.0
+      },
+      {
+        "name": "Omicron 3",
+        "n": 41,
+        "lat": 28.474501,
+        "lon": 77.553187,
+        "median_price_sqft": 3693.6936936936936,
+        "median_price": 4100000.0
+      },
+      {
+        "name": "Sector 1",
+        "n": 38,
+        "lat": 28.5661101,
+        "lon": 77.4406099,
+        "median_price_sqft": 3663.810689514484,
+        "median_price": 4350000.0
+      },
+      {
+        "name": "Omicron 1",
+        "n": 33,
+        "lat": 28.4626703284033,
+        "lon": 77.5583025174588,
+        "median_price_sqft": 3821.9895287958116,
+        "median_price": 4500000.0
+      },
+      {
+        "name": "Eta 2",
+        "n": 30,
+        "lat": 28.496992,
+        "lon": 77.537536,
+        "median_price_sqft": 3517.5879396984924,
+        "median_price": 3900000.0
+      },
+      {
+        "name": "Techzone 4",
+        "n": 29,
+        "lat": 28.5859957,
+        "lon": 77.4338341,
+        "median_price_sqft": 4011.4613180515757,
+        "median_price": 4500000.0
+      },
+      {
+        "name": "Chi 5",
+        "n": 27,
+        "lat": 28.432094,
+        "lon": 77.5061330784878,
+        "median_price_sqft": 3657.1428571428573,
+        "median_price": 4800000.0
+      },
+      {
+        "name": "Tech Zone",
+        "n": 27,
+        "lat": 28.400922,
+        "lon": 77.51969,
+        "median_price_sqft": 3756.3451776649745,
+        "median_price": 3800000.0
+      },
+      {
+        "name": "Sector 4",
+        "n": 24,
+        "lat": 28.6109351,
+        "lon": 77.4294948,
+        "median_price_sqft": 4146.258503401361,
+        "median_price": 5000000.0
+      },
+      {
+        "name": "Surajpur",
+        "n": 21,
+        "lat": 28.5116300715377,
+        "lon": 77.51826319889,
+        "median_price_sqft": 3517.5879396984924,
+        "median_price": 3800000.0
+      },
+      {
+        "name": "Pari Chowk",
+        "n": 17,
+        "lat": 28.4655907,
+        "lon": 77.5114027,
+        "median_price_sqft": 4245.591116917048,
+        "median_price": 7000000.0
+      },
+      {
+        "name": "C-16",
+        "n": 16,
+        "lat": 28.453581,
+        "lon": 77.556221,
+        "median_price_sqft": 4187.617850408548,
+        "median_price": 5550000.0
+      },
+      {
+        "name": "Omega 1",
+        "n": 13,
+        "lat": 28.4526453,
+        "lon": 77.5128173828125,
+        "median_price_sqft": 3862.6609442060085,
+        "median_price": 5400000.0
+      },
+      {
+        "name": "Phi 2",
+        "n": 13,
+        "lat": 28.4796261198916,
+        "lon": 77.5322956555461,
+        "median_price_sqft": 4702.970297029703,
+        "median_price": 5500000.0
+      },
+      {
+        "name": "Sector 2",
+        "n": 12,
+        "lat": 28.5814311,
+        "lon": 77.4528192,
+        "median_price_sqft": 3713.0801687763715,
+        "median_price": 3400000.0
+      },
+      {
+        "name": "Sector MU",
+        "n": 10,
+        "lat": 28.47839,
+        "lon": 77.561036,
+        "median_price_sqft": 3830.2836566725455,
+        "median_price": 6250000.0
+      },
+      {
+        "name": "Sector-Pi",
+        "n": 10,
+        "lat": 28.4737346,
+        "lon": 77.5413219,
+        "median_price_sqft": 3762.159586787029,
+        "median_price": 4900000.0
+      },
+      {
+        "name": "Omicron",
+        "n": 9,
+        "lat": 28.4751606,
+        "lon": 77.55141449,
+        "median_price_sqft": 3594.4700460829495,
+        "median_price": 5600000.0
+      },
+      {
+        "name": "Zeta",
+        "n": 9,
+        "lat": 28.507687,
+        "lon": 77.532312,
+        "median_price_sqft": 3731.3432835820895,
+        "median_price": 6500000.0
+      },
+      {
+        "name": "Zeta 2",
+        "n": 9,
+        "lat": 28.517742,
+        "lon": 77.529334,
+        "median_price_sqft": 3731.3432835820895,
+        "median_price": 5600000.0
+      },
+      {
+        "name": "PI 2",
+        "n": 8,
+        "lat": 28.475274,
+        "lon": 77.545978,
+        "median_price_sqft": 3168.7555771882858,
+        "median_price": 5400000.0
+      },
+      {
+        "name": "Sector 10",
+        "n": 8,
+        "lat": 28.571936,
+        "lon": 77.479001,
+        "median_price_sqft": 3978.583545377439,
+        "median_price": 4335000.0
+      },
+      {
+        "name": "Beta 2",
+        "n": 7,
+        "lat": 28.4849855,
+        "lon": 77.51343536376953,
+        "median_price_sqft": 4195.121951219512,
+        "median_price": 4500000.0
+      },
+      {
+        "name": "Omega 2",
+        "n": 6,
+        "lat": 28.4611974,
+        "lon": 77.5111725,
+        "median_price_sqft": 4605.015673981191,
+        "median_price": 8650000.0
+      },
+      {
+        "name": "Alpha 1",
+        "n": 5,
+        "lat": 28.4737775,
+        "lon": 77.510485,
+        "median_price_sqft": 4627.831715210356,
+        "median_price": 7000000.0
+      },
+      {
+        "name": "Chi 2",
+        "n": 5,
+        "lat": 28.2734,
+        "lon": 77.3106,
+        "median_price_sqft": 4000.0,
+        "median_price": 8100000.0
+      },
+      {
+        "name": "Chi 4",
+        "n": 5,
+        "lat": 28.4329494549295,
+        "lon": 77.517838,
+        "median_price_sqft": 4500.0,
+        "median_price": 9000000.0
+      },
+      {
+        "name": "Jalvayu Vihar",
+        "n": 5,
+        "lat": 28.446343,
+        "lon": 77.515305,
+        "median_price_sqft": 4054.054054054054,
+        "median_price": 4000000.0
+      },
+      {
+        "name": "PI 1 & 2",
+        "n": 5,
+        "lat": 28.4737345,
+        "lon": 77.5413219,
+        "median_price_sqft": 3272.7272727272725,
+        "median_price": 5200000.0
+      },
+      {
+        "name": "Sector 27",
+        "n": 5,
+        "lat": 28.470149,
+        "lon": 77.535673,
+        "median_price_sqft": 7760.141093474427,
+        "median_price": 22000000.0
+      },
+      {
+        "name": "Alpha 2",
+        "n": 4,
+        "lat": 28.476934749999998,
+        "lon": 77.51687095,
+        "median_price_sqft": 3909.5744680851067,
+        "median_price": 6600000.0
+      },
+      {
+        "name": "Amrapali Dream Valley",
+        "n": 4,
+        "lat": 28.5968078399292,
+        "lon": 77.44292269975585,
+        "median_price_sqft": 3588.235294117647,
+        "median_price": 3360000.0
+      },
+      {
+        "name": "Amrapali Leisure Valley",
+        "n": 4,
+        "lat": 28.582590051574705,
+        "lon": 77.42400180053711,
+        "median_price_sqft": 4698.720945055879,
+        "median_price": 7975000.0
+      },
+      {
+        "name": "Gautam budh nagar",
+        "n": 4,
+        "lat": 28.479240208740237,
+        "lon": 77.50077078442382,
+        "median_price_sqft": 4410.559566787004,
+        "median_price": 5300000.0
+      },
+      {
+        "name": "Beta 2 Block F",
+        "n": 3,
+        "lat": 28.4846690152963,
+        "lon": 77.5138801,
+        "median_price_sqft": 4081.6326530612246,
+        "median_price": 5000000.0
+      },
+      {
+        "name": "Chuharpur Khadar",
+        "n": 3,
+        "lat": 28.4265996,
+        "lon": 77.5077563,
+        "median_price_sqft": 3404.471544715447,
+        "median_price": 3400000.0
+      },
+      {
+        "name": "Knowledge Park 5",
+        "n": 3,
+        "lat": 28.552659,
+        "lon": 77.4715276,
+        "median_price_sqft": 4200.0,
+        "median_price": 3600000.0
+      },
+      {
+        "name": "Nri City",
+        "n": 3,
+        "lat": 28.4611974,
+        "lon": 77.5111725,
+        "median_price_sqft": 3680.0,
+        "median_price": 8500000.0
+      },
+      {
+        "name": "Phi 4",
+        "n": 3,
+        "lat": 28.4390531,
+        "lon": 77.5239003,
+        "median_price_sqft": 3902.439024390244,
+        "median_price": 4800000.0
+      },
+      {
+        "name": "Sadullapur",
+        "n": 3,
+        "lat": 28.591666,
+        "lon": 77.484749,
+        "median_price_sqft": 3888.8888888888887,
+        "median_price": 3500000.0
+      },
+      {
+        "name": "Shahberi",
+        "n": 3,
+        "lat": 28.61655044555664,
+        "lon": 77.437388,
+        "median_price_sqft": 3504.2016806722695,
+        "median_price": 4170000.000000001
+      },
+      {
+        "name": "UPSIDC Site C Block H",
+        "n": 3,
+        "lat": 28.5103276869581,
+        "lon": 77.5217106743681,
+        "median_price_sqft": 2790.6976744186045,
+        "median_price": 3600000.0
+      }
+    ],
+    "Gurgaon": [
+      {
+        "name": "Sector 37D",
+        "n": 64,
+        "lat": 28.447972,
+        "lon": 76.972154,
+        "median_price_sqft": 5072.463768115942,
+        "median_price": 8100000.0
+      },
+      {
+        "name": "Sector 79",
+        "n": 55,
+        "lat": 28.35911846,
+        "lon": 76.971745,
+        "median_price_sqft": 6023.1660231660235,
+        "median_price": 9500000.0
+      },
+      {
+        "name": "Sector 92",
+        "n": 51,
+        "lat": 28.412413,
+        "lon": 76.914303,
+        "median_price_sqft": 4564.666103127642,
+        "median_price": 6500000.0
+      },
+      {
+        "name": "Sector 82",
+        "n": 47,
+        "lat": 28.3929103,
+        "lon": 76.962842,
+        "median_price_sqft": 6000.0,
+        "median_price": 8400000.0
+      },
+      {
+        "name": "Sector 37C",
+        "n": 44,
+        "lat": 28.44926,
+        "lon": 76.98476024,
+        "median_price_sqft": 4737.6373626373625,
+        "median_price": 7650000.0
+      },
+      {
+        "name": "Sector 83",
+        "n": 35,
+        "lat": 28.399362,
+        "lon": 76.97150985,
+        "median_price_sqft": 5509.433962264151,
+        "median_price": 8700000.0
+      },
+      {
+        "name": "Palam Vihar",
+        "n": 34,
+        "lat": 28.5080324,
+        "lon": 77.0336072,
+        "median_price_sqft": 6896.652965355255,
+        "median_price": 10150000.0
+      },
+      {
+        "name": "Sector 68",
+        "n": 34,
+        "lat": 28.386791,
+        "lon": 77.049363,
+        "median_price_sqft": 6787.481515185986,
+        "median_price": 9250000.0
+      },
+      {
+        "name": "Sector 102",
+        "n": 32,
+        "lat": 28.47631072998047,
+        "lon": 76.9716096,
+        "median_price_sqft": 6241.17414010816,
+        "median_price": 9550000.0
+      },
+      {
+        "name": "Sector 70",
+        "n": 32,
+        "lat": 28.395680754374,
+        "lon": 77.02262875,
+        "median_price_sqft": 6715.214314421011,
+        "median_price": 9850000.0
+      },
+      {
+        "name": "Sector 49",
+        "n": 31,
+        "lat": 28.4111861,
+        "lon": 77.0497084,
+        "median_price_sqft": 7500.0,
+        "median_price": 14000000.0
+      },
+      {
+        "name": "Sector 57",
+        "n": 31,
+        "lat": 28.4215541,
+        "lon": 77.0780609,
+        "median_price_sqft": 7168.0,
+        "median_price": 13500000.0
+      },
+      {
+        "name": "Sohna Road",
+        "n": 26,
+        "lat": 28.4102438,
+        "lon": 77.0411697,
+        "median_price_sqft": 7115.449760266833,
+        "median_price": 13000000.0
+      },
+      {
+        "name": "Sector 56",
+        "n": 25,
+        "lat": 28.4244375,
+        "lon": 77.09821319580078,
+        "median_price_sqft": 7352.941176470588,
+        "median_price": 12000000.0
+      },
+      {
+        "name": "Sector 77",
+        "n": 25,
+        "lat": 28.38401706,
+        "lon": 76.979751,
+        "median_price_sqft": 5762.897914379802,
+        "median_price": 8600000.0
+      },
+      {
+        "name": "Sector 84",
+        "n": 25,
+        "lat": 28.403432,
+        "lon": 76.965023,
+        "median_price_sqft": 4800.0,
+        "median_price": 7600000.0
+      },
+      {
+        "name": "Sector 85",
+        "n": 25,
+        "lat": 28.405706,
+        "lon": 76.951659,
+        "median_price_sqft": 4863.22188449848,
+        "median_price": 9500000.0
+      },
+      {
+        "name": "Sector 104",
+        "n": 24,
+        "lat": 28.48438996,
+        "lon": 77.00030461,
+        "median_price_sqft": 6449.315395469079,
+        "median_price": 10000000.0
+      },
+      {
+        "name": "Sector 67",
+        "n": 24,
+        "lat": 28.387228,
+        "lon": 77.0605754,
+        "median_price_sqft": 6728.697771982539,
+        "median_price": 13250000.0
+      },
+      {
+        "name": "Sector 70A",
+        "n": 23,
+        "lat": 28.3841326,
+        "lon": 77.018875,
+        "median_price_sqft": 6735.340729001585,
+        "median_price": 12500000.0
+      },
+      {
+        "name": "Sushant Lok 2",
+        "n": 23,
+        "lat": 28.423049,
+        "lon": 77.08741,
+        "median_price_sqft": 7333.333333333333,
+        "median_price": 12000000.0
+      },
+      {
+        "name": "Sector 48",
+        "n": 22,
+        "lat": 28.41492,
+        "lon": 77.0384324627314,
+        "median_price_sqft": 6657.848324514991,
+        "median_price": 15000000.0
+      },
+      {
+        "name": "Sector 52",
+        "n": 22,
+        "lat": 28.438262,
+        "lon": 77.0798618095476,
+        "median_price_sqft": 6597.222222222223,
+        "median_price": 14500000.0
+      },
+      {
+        "name": "Sector 65",
+        "n": 22,
+        "lat": 28.403028,
+        "lon": 77.0698444,
+        "median_price_sqft": 9060.235507246376,
+        "median_price": 14700000.0
+      },
+      {
+        "name": "Sector 86",
+        "n": 22,
+        "lat": 28.3981,
+        "lon": 76.939287,
+        "median_price_sqft": 5342.152865070362,
+        "median_price": 9370000.0
+      },
+      {
+        "name": "Sector 90",
+        "n": 22,
+        "lat": 28.4073309,
+        "lon": 76.932664,
+        "median_price_sqft": 4800.0,
+        "median_price": 8350000.0
+      },
+      {
+        "name": "Dwarka Expressway",
+        "n": 20,
+        "lat": 28.445011138916016,
+        "lon": 76.96200584399415,
+        "median_price_sqft": 5731.405663596042,
+        "median_price": 9980000.0
+      },
+      {
+        "name": "Sector 95",
+        "n": 20,
+        "lat": 28.41828,
+        "lon": 76.91063295000001,
+        "median_price_sqft": 4459.9342273586735,
+        "median_price": 5250000.0
+      },
+      {
+        "name": "Sector 107",
+        "n": 19,
+        "lat": 28.514908,
+        "lon": 76.974388,
+        "median_price_sqft": 5291.970802919708,
+        "median_price": 7500000.0
+      },
+      {
+        "name": "Sushant Lok 1",
+        "n": 19,
+        "lat": 28.454191,
+        "lon": 77.0837996,
+        "median_price_sqft": 10000.0,
+        "median_price": 17000000.0
+      },
+      {
+        "name": "Sector 109",
+        "n": 18,
+        "lat": 28.51083403,
+        "lon": 77.003435,
+        "median_price_sqft": 5983.001565645269,
+        "median_price": 12500000.0
+      },
+      {
+        "name": "Sector 33",
+        "n": 17,
+        "lat": 28.4315793621749,
+        "lon": 77.0352442742233,
+        "median_price_sqft": 7096.774193548387,
+        "median_price": 10300000.0
+      },
+      {
+        "name": "Sohna",
+        "n": 17,
+        "lat": 28.259375,
+        "lon": 77.069185,
+        "median_price_sqft": 4882.924043403769,
+        "median_price": 6500000.0
+      },
+      {
+        "name": "Sector 108",
+        "n": 15,
+        "lat": 28.512136,
+        "lon": 76.986899,
+        "median_price_sqft": 5777.270999619916,
+        "median_price": 8500000.0
+      },
+      {
+        "name": "South City 2",
+        "n": 15,
+        "lat": 28.4178669,
+        "lon": 77.0512457,
+        "median_price_sqft": 7500.0,
+        "median_price": 12000000.0
+      },
+      {
+        "name": "Gurgaon - Faridabad Road",
+        "n": 14,
+        "lat": 28.436305,
+        "lon": 77.13605,
+        "median_price_sqft": 5784.615384615385,
+        "median_price": 7600000.0
+      },
+      {
+        "name": "Sector 47",
+        "n": 14,
+        "lat": 28.4258675,
+        "lon": 77.04394929,
+        "median_price_sqft": 8050.216222437805,
+        "median_price": 13000000.0
+      },
+      {
+        "name": "Sector 66",
+        "n": 14,
+        "lat": 28.400043,
+        "lon": 77.055305,
+        "median_price_sqft": 8865.065205386347,
+        "median_price": 20150000.0
+      },
+      {
+        "name": "Sector 69",
+        "n": 14,
+        "lat": 28.3976154,
+        "lon": 77.036526,
+        "median_price_sqft": 6227.428674611773,
+        "median_price": 8955000.0
+      },
+      {
+        "name": "Nirvana Country",
+        "n": 13,
+        "lat": 28.414627,
+        "lon": 77.060127,
+        "median_price_sqft": 7073.170731707317,
+        "median_price": 14000000.0
+      },
+      {
+        "name": "Sector 71",
+        "n": 13,
+        "lat": 28.419032,
+        "lon": 77.028272,
+        "median_price_sqft": 6215.3163152053285,
+        "median_price": 12000000.0
+      },
+      {
+        "name": "Sector 81",
+        "n": 13,
+        "lat": 28.389485,
+        "lon": 76.9528535,
+        "median_price_sqft": 6024.096385542169,
+        "median_price": 15000000.0
+      },
+      {
+        "name": "Ardee City",
+        "n": 12,
+        "lat": 28.4412025,
+        "lon": 77.0785644,
+        "median_price_sqft": 7105.769230769231,
+        "median_price": 11100000.0
+      },
+      {
+        "name": "Sector 51",
+        "n": 12,
+        "lat": 28.4287815,
+        "lon": 77.0661409,
+        "median_price_sqft": 7874.545454545454,
+        "median_price": 12050000.0
+      },
+      {
+        "name": "DLF City Phase 2",
+        "n": 11,
+        "lat": 28.48860740661621,
+        "lon": 77.0819091796875,
+        "median_price_sqft": 9375.0,
+        "median_price": 22500000.0
+      },
+      {
+        "name": "Rajendra Park",
+        "n": 11,
+        "lat": 28.4938375,
+        "lon": 77.0071875,
+        "median_price_sqft": 4285.714285714285,
+        "median_price": 3200000.0
+      },
+      {
+        "name": "Sector 46",
+        "n": 11,
+        "lat": 28.435840606689453,
+        "lon": 77.05825805664062,
+        "median_price_sqft": 7500.0,
+        "median_price": 13000000.0
+      },
+      {
+        "name": "Sushant Lok 1 Block C",
+        "n": 11,
+        "lat": 28.454517,
+        "lon": 77.081868,
+        "median_price_sqft": 8666.666666666666,
+        "median_price": 17500000.0
+      },
+      {
+        "name": "Sector 67A",
+        "n": 10,
+        "lat": 28.385385,
+        "lon": 77.06232800000001,
+        "median_price_sqft": 6790.984769652823,
+        "median_price": 13900000.0
+      },
+      {
+        "name": "Sector 81A",
+        "n": 10,
+        "lat": 28.391683190000002,
+        "lon": 76.9528535,
+        "median_price_sqft": 5666.941128036229,
+        "median_price": 15550000.0
+      },
+      {
+        "name": "South City 1",
+        "n": 10,
+        "lat": 28.4570251,
+        "lon": 77.06468125341797,
+        "median_price_sqft": 8438.095238095239,
+        "median_price": 17500000.0
+      },
+      {
+        "name": "Ashok Vihar Phase 2",
+        "n": 9,
+        "lat": 28.4838094,
+        "lon": 77.027832,
+        "median_price_sqft": 5333.333333333333,
+        "median_price": 3900000.0
+      },
+      {
+        "name": "Malibu Town",
+        "n": 9,
+        "lat": 28.42242813110352,
+        "lon": 77.046461,
+        "median_price_sqft": 8415.584415584417,
+        "median_price": 24500000.0
+      },
+      {
+        "name": "Sector 103",
+        "n": 9,
+        "lat": 28.4952463,
+        "lon": 76.9853854,
+        "median_price_sqft": 5154.639175257732,
+        "median_price": 7500000.0
+      },
+      {
+        "name": "Sector 32 Sohna",
+        "n": 9,
+        "lat": 28.251834,
+        "lon": 77.067419,
+        "median_price_sqft": 6603.773584905661,
+        "median_price": 10500000.0
+      },
+      {
+        "name": "Sector 36 Sohna",
+        "n": 9,
+        "lat": 28.422652,
+        "lon": 77.037603,
+        "median_price_sqft": 4902.867715078631,
+        "median_price": 4900000.0
+      },
+      {
+        "name": "Sector 43",
+        "n": 9,
+        "lat": 28.45518493652344,
+        "lon": 77.0866744,
+        "median_price_sqft": 9015.594541910332,
+        "median_price": 16500000.0
+      },
+      {
+        "name": "Sector 78",
+        "n": 9,
+        "lat": 28.371015,
+        "lon": 76.944353,
+        "median_price_sqft": 5836.575875486381,
+        "median_price": 7500000.0
+      },
+      {
+        "name": "Sector 89",
+        "n": 9,
+        "lat": 28.424505,
+        "lon": 76.945281,
+        "median_price_sqft": 5392.6701570680625,
+        "median_price": 9900000.0
+      },
+      {
+        "name": "Sector 91",
+        "n": 9,
+        "lat": 28.401801,
+        "lon": 76.9198646,
+        "median_price_sqft": 4626.943005181347,
+        "median_price": 8930000.0
+      },
+      {
+        "name": "DLF City Phase 3",
+        "n": 8,
+        "lat": 28.49410629272461,
+        "lon": 77.10335545385743,
+        "median_price_sqft": 9208.896396396398,
+        "median_price": 28250000.0
+      },
+      {
+        "name": "Dlf City Phase 4",
+        "n": 8,
+        "lat": 28.466304839526366,
+        "lon": 77.0863199,
+        "median_price_sqft": 9423.8683127572,
+        "median_price": 22000000.0
+      },
+      {
+        "name": "Laxman Vihar",
+        "n": 8,
+        "lat": 28.4812055,
+        "lon": 77.0089031,
+        "median_price_sqft": 6909.288093578124,
+        "median_price": 6350000.0
+      },
+      {
+        "name": "Sector 106",
+        "n": 8,
+        "lat": 28.49974395,
+        "lon": 76.999946,
+        "median_price_sqft": 5477.272727272728,
+        "median_price": 9550000.0
+      },
+      {
+        "name": "Sector 23",
+        "n": 8,
+        "lat": 28.5097759,
+        "lon": 77.05356623950195,
+        "median_price_sqft": 7084.090909090909,
+        "median_price": 14600000.0
+      },
+      {
+        "name": "Sheetla Colony",
+        "n": 8,
+        "lat": 28.484771,
+        "lon": 77.028653,
+        "median_price_sqft": 5555.555555555556,
+        "median_price": 4000000.0
+      },
+      {
+        "name": "Sushant Lok 3",
+        "n": 8,
+        "lat": 28.420385360717773,
+        "lon": 77.0797348022461,
+        "median_price_sqft": 7303.030303030303,
+        "median_price": 15000000.0
+      },
+      {
+        "name": "Ashok Vihar Phase 3 Extension",
+        "n": 7,
+        "lat": 28.4941085,
+        "lon": 77.0257,
+        "median_price_sqft": 4000.0,
+        "median_price": 3500000.0
+      },
+      {
+        "name": "Golf course Extension Road",
+        "n": 7,
+        "lat": 28.40159389,
+        "lon": 77.08521270751953,
+        "median_price_sqft": 8150.06468305304,
+        "median_price": 18900000.0
+      },
+      {
+        "name": "Krishna Colony",
+        "n": 7,
+        "lat": 28.466155,
+        "lon": 77.010758,
+        "median_price_sqft": 5600.0,
+        "median_price": 4600000.0
+      },
+      {
+        "name": "Sector 10A",
+        "n": 7,
+        "lat": 28.4446244,
+        "lon": 77.009305,
+        "median_price_sqft": 5200.0,
+        "median_price": 8000000.0
+      },
+      {
+        "name": "Sector 30",
+        "n": 7,
+        "lat": 28.46195602416992,
+        "lon": 77.05679321289062,
+        "median_price_sqft": 9290.54054054054,
+        "median_price": 18000000.0
+      },
+      {
+        "name": "Sector 33 Sohna",
+        "n": 7,
+        "lat": 28.283912,
+        "lon": 77.066987,
+        "median_price_sqft": 6587.374199451052,
+        "median_price": 9050000.0
+      },
+      {
+        "name": "Sector 45",
+        "n": 7,
+        "lat": 28.4446575,
+        "lon": 77.0670365,
+        "median_price_sqft": 7575.757575757576,
+        "median_price": 13000000.0
+      },
+      {
+        "name": "Sector 54",
+        "n": 7,
+        "lat": 28.443186,
+        "lon": 77.108856,
+        "median_price_sqft": 12724.306688417619,
+        "median_price": 38000000.0
+      },
+      {
+        "name": "Uppal Southend",
+        "n": 7,
+        "lat": 28.4087443,
+        "lon": 77.0450224,
+        "median_price_sqft": 6428.571428571428,
+        "median_price": 13000000.0
+      },
+      {
+        "name": "Ashok Vihar",
+        "n": 6,
+        "lat": 28.48689986479492,
+        "lon": 77.0154049,
+        "median_price_sqft": 6183.862433862434,
+        "median_price": 7100000.0
+      },
+      {
+        "name": "Golf Course Road",
+        "n": 6,
+        "lat": 28.4387752637638,
+        "lon": 77.10121492090015,
+        "median_price_sqft": 13267.780093339985,
+        "median_price": 52750000.0
+      },
+      {
+        "name": "Kendriya Vihar",
+        "n": 6,
+        "lat": 28.423729820218952,
+        "lon": 77.1013245863658,
+        "median_price_sqft": 7006.162464985994,
+        "median_price": 9750000.0
+      },
+      {
+        "name": "Manesar",
+        "n": 6,
+        "lat": 28.426279665,
+        "lon": 77.01324192000001,
+        "median_price_sqft": 4728.093947606143,
+        "median_price": 12750000.0
+      },
+      {
+        "name": "Mayfield Garden",
+        "n": 6,
+        "lat": 28.4287737,
+        "lon": 77.0642745,
+        "median_price_sqft": 7434.21052631579,
+        "median_price": 11500000.0
+      },
+      {
+        "name": "Patel Nagar",
+        "n": 6,
+        "lat": 28.4603545,
+        "lon": 77.0395295,
+        "median_price_sqft": 5000.0,
+        "median_price": 3750000.0
+      },
+      {
+        "name": "Sector 112",
+        "n": 6,
+        "lat": 28.5301479,
+        "lon": 77.0164465,
+        "median_price_sqft": 8635.773700666628,
+        "median_price": 22500000.0
+      },
+      {
+        "name": "Sector 4",
+        "n": 6,
+        "lat": 28.474893784973144,
+        "lon": 77.00980377197266,
+        "median_price_sqft": 6157.894736842105,
+        "median_price": 9200000.0
+      },
+      {
+        "name": "Sector 50",
+        "n": 6,
+        "lat": 28.41656892805176,
+        "lon": 77.06200625,
+        "median_price_sqft": 8474.375538329026,
+        "median_price": 11300000.0
+      },
+      {
+        "name": "Sector 88A",
+        "n": 6,
+        "lat": 28.43058099,
+        "lon": 76.94862,
+        "median_price_sqft": 6070.63760887367,
+        "median_price": 11500000.0
+      },
+      {
+        "name": "Sector 93",
+        "n": 6,
+        "lat": 28.413784,
+        "lon": 76.935259,
+        "median_price_sqft": 4348.050893586596,
+        "median_price": 8150000.0
+      },
+      {
+        "name": "DLF City Phase 1",
+        "n": 5,
+        "lat": 28.47293472290039,
+        "lon": 77.09846496582031,
+        "median_price_sqft": 10555.555555555555,
+        "median_price": 32000000.0
+      },
+      {
+        "name": "Dayanand Colony",
+        "n": 5,
+        "lat": 28.472907,
+        "lon": 77.0210785,
+        "median_price_sqft": 5555.555555555556,
+        "median_price": 4500000.0
+      },
+      {
+        "name": "Gwal Pahari",
+        "n": 5,
+        "lat": 28.4305781,
+        "lon": 77.147745,
+        "median_price_sqft": 6128.702757916241,
+        "median_price": 8200000.0
+      },
+      {
+        "name": "IMT Manesar",
+        "n": 5,
+        "lat": 28.3779167,
+        "lon": 76.9155836,
+        "median_price_sqft": 5112.474437627812,
+        "median_price": 9300000.0
+      },
+      {
+        "name": "New Colony",
+        "n": 5,
+        "lat": 28.465525,
+        "lon": 77.0171795,
+        "median_price_sqft": 6206.896551724138,
+        "median_price": 6300000.0
+      },
+      {
+        "name": "Sector 110A",
+        "n": 5,
+        "lat": 28.513139,
+        "lon": 77.025952,
+        "median_price_sqft": 6832.298136645963,
+        "median_price": 11500000.0
+      },
+      {
+        "name": "Sector 111",
+        "n": 5,
+        "lat": 28.524995,
+        "lon": 77.031893,
+        "median_price_sqft": 7546.31721644826,
+        "median_price": 16700000.0
+      },
+      {
+        "name": "Sector 14",
+        "n": 5,
+        "lat": 28.4722984,
+        "lon": 77.0451025,
+        "median_price_sqft": 6388.888888888889,
+        "median_price": 11500000.0
+      },
+      {
+        "name": "Sector 15 Part 2",
+        "n": 5,
+        "lat": 28.4600887298584,
+        "lon": 77.044921875,
+        "median_price_sqft": 6888.888888888889,
+        "median_price": 14000000.0
+      },
+      {
+        "name": "Sector 35 Sohna",
+        "n": 5,
+        "lat": 28.283682,
+        "lon": 77.047379,
+        "median_price_sqft": 5925.925925925926,
+        "median_price": 9000000.0
+      },
+      {
+        "name": "Sector 60",
+        "n": 5,
+        "lat": 28.400064,
+        "lon": 77.0959513,
+        "median_price_sqft": 8733.624454148472,
+        "median_price": 18400000.0
+      },
+      {
+        "name": "Sector 63A",
+        "n": 5,
+        "lat": 28.400444,
+        "lon": 77.103004,
+        "median_price_sqft": 9100.0,
+        "median_price": 21600000.0
+      },
+      {
+        "name": "Sector 72",
+        "n": 5,
+        "lat": 28.406826,
+        "lon": 77.0358001625123,
+        "median_price_sqft": 8000.0,
+        "median_price": 29000000.0
+      },
+      {
+        "name": "Sector 99",
+        "n": 5,
+        "lat": 28.456421,
+        "lon": 76.962075,
+        "median_price_sqft": 5875.370919881306,
+        "median_price": 11000000.0
+      },
+      {
+        "name": "Sector 99A",
+        "n": 5,
+        "lat": 28.4555238,
+        "lon": 76.9545079,
+        "median_price_sqft": 5194.805194805195,
+        "median_price": 3300000.0
+      },
+      {
+        "name": "Behrampur Village",
+        "n": 4,
+        "lat": 28.419032,
+        "lon": 77.028272,
+        "median_price_sqft": 5983.473683805211,
+        "median_price": 8750000.0
+      },
+      {
+        "name": "DLF City Phase 5",
+        "n": 4,
+        "lat": 28.448119,
+        "lon": 77.09525,
+        "median_price_sqft": 11615.838892954447,
+        "median_price": 17250000.0
+      },
+      {
+        "name": "Ratan Vihar",
+        "n": 4,
+        "lat": 28.493117843066404,
+        "lon": 77.01239708305664,
+        "median_price_sqft": 4183.760683760684,
+        "median_price": 3300000.0
+      },
+      {
+        "name": "Sector 109 Block T",
+        "n": 4,
+        "lat": 28.511593963547362,
+        "lon": 77.00774853637695,
+        "median_price_sqft": 6837.5,
+        "median_price": 14300000.0
+      },
+      {
+        "name": "Sector 21 Surya Vihar-",
+        "n": 4,
+        "lat": 28.517671585083008,
+        "lon": 77.07597351074219,
+        "median_price_sqft": 6248.3953786906295,
+        "median_price": 11000000.0
+      },
+      {
+        "name": "Sector 3",
+        "n": 4,
+        "lat": 28.491392079213853,
+        "lon": 77.01804252914314,
+        "median_price_sqft": 6764.850091706467,
+        "median_price": 13250000.0
+      },
+      {
+        "name": "Sector 31",
+        "n": 4,
+        "lat": 28.45305080670166,
+        "lon": 77.0488366472168,
+        "median_price_sqft": 7832.03125,
+        "median_price": 12750000.0
+      },
+      {
+        "name": "Sector 53",
+        "n": 4,
+        "lat": 28.4407383787887,
+        "lon": 77.1012647429428,
+        "median_price_sqft": 10963.818117480538,
+        "median_price": 44000000.0
+      },
+      {
+        "name": "Sector 55",
+        "n": 4,
+        "lat": 28.425637,
+        "lon": 77.112182,
+        "median_price_sqft": 7557.94701986755,
+        "median_price": 12000000.0
+      },
+      {
+        "name": "Sector 56 Block E",
+        "n": 4,
+        "lat": 28.458158824975584,
+        "lon": 77.06049485053892,
+        "median_price_sqft": 7992.424242424242,
+        "median_price": 16750000.0
+      },
+      {
+        "name": "Sector 57 Block F",
+        "n": 4,
+        "lat": 28.419763242155238,
+        "lon": 77.07486093164061,
+        "median_price_sqft": 7715.51724137931,
+        "median_price": 15750000.0
+      },
+      {
+        "name": "Sector 62",
+        "n": 4,
+        "lat": 28.4129625,
+        "lon": 77.08861350000001,
+        "median_price_sqft": 10248.713550600343,
+        "median_price": 35850000.0
+      },
+      {
+        "name": "Sector 76",
+        "n": 4,
+        "lat": 28.391909499999997,
+        "lon": 76.9957215,
+        "median_price_sqft": 5452.269563872564,
+        "median_price": 8950000.0
+      },
+      {
+        "name": "Arjun Nagar",
+        "n": 3,
+        "lat": 28.4597656,
+        "lon": 77.0194855,
+        "median_price_sqft": 5846.153846153846,
+        "median_price": 4500000.0
+      },
+      {
+        "name": "Chakkarpur",
+        "n": 3,
+        "lat": 28.4737384,
+        "lon": 77.0878604,
+        "median_price_sqft": 6363.636363636364,
+        "median_price": 8500000.0
+      },
+      {
+        "name": "Chandan Vihar",
+        "n": 3,
+        "lat": 28.513139,
+        "lon": 77.025952,
+        "median_price_sqft": 6501.547987616099,
+        "median_price": 15100000.0
+      },
+      {
+        "name": "Civil Lines",
+        "n": 3,
+        "lat": 28.453141,
+        "lon": 77.0329014,
+        "median_price_sqft": 7042.2535211267605,
+        "median_price": 9500000.0
+      },
+      {
+        "name": "Cyber City",
+        "n": 3,
+        "lat": 28.486296,
+        "lon": 77.08464,
+        "median_price_sqft": 10624.169986719788,
+        "median_price": 24000000.0
+      },
+      {
+        "name": "Dwarka-Manesar Expressway",
+        "n": 3,
+        "lat": 28.51348116,
+        "lon": 76.971479,
+        "median_price_sqft": 5415.162454873646,
+        "median_price": 3000000.0
+      },
+      {
+        "name": "Garauli Khurd",
+        "n": 3,
+        "lat": 28.447828,
+        "lon": 76.97683023,
+        "median_price_sqft": 5501.416430594901,
+        "median_price": 9710000.0
+      },
+      {
+        "name": "M G Road",
+        "n": 3,
+        "lat": 28.479568481445312,
+        "lon": 77.08006286621094,
+        "median_price_sqft": 9144.1111923921,
+        "median_price": 25000000.0
+      },
+      {
+        "name": "Maruti Kunj",
+        "n": 3,
+        "lat": 28.352956771850582,
+        "lon": 77.08735656738281,
+        "median_price_sqft": 3888.8888888888887,
+        "median_price": 3500000.0
+      },
+      {
+        "name": "Mianwali Colony",
+        "n": 3,
+        "lat": 28.4669916,
+        "lon": 77.0293077,
+        "median_price_sqft": 6018.518518518518,
+        "median_price": 6500000.0
+      },
+      {
+        "name": "New Palam Vihar",
+        "n": 3,
+        "lat": 28.522253,
+        "lon": 77.019658,
+        "median_price_sqft": 4444.444444444444,
+        "median_price": 5000000.0
+      },
+      {
+        "name": "Nirvana country Pocket H",
+        "n": 3,
+        "lat": 28.414627,
+        "lon": 77.060127,
+        "median_price_sqft": 6863.560732113145,
+        "median_price": 11000000.0
+      },
+      {
+        "name": "Phase 2",
+        "n": 3,
+        "lat": 28.4781401,
+        "lon": 77.0017835,
+        "median_price_sqft": 7333.333333333333,
+        "median_price": 6600000.0
+      },
+      {
+        "name": "Sector 11",
+        "n": 3,
+        "lat": 28.452491760253903,
+        "lon": 77.02175903320312,
+        "median_price_sqft": 10000.0,
+        "median_price": 22500000.0
+      },
+      {
+        "name": "Sector 12",
+        "n": 3,
+        "lat": 28.46906,
+        "lon": 77.02811,
+        "median_price_sqft": 5238.0952380952385,
+        "median_price": 5500000.0
+      },
+      {
+        "name": "Sector 2 Sohna",
+        "n": 3,
+        "lat": 28.27197877,
+        "lon": 77.06665731,
+        "median_price_sqft": 4884.297520661157,
+        "median_price": 6000000.0
+      },
+      {
+        "name": "Sector 4 Sohna",
+        "n": 3,
+        "lat": 28.26215,
+        "lon": 77.083519,
+        "median_price_sqft": 3252.6315789473683,
+        "median_price": 2660000.0
+      },
+      {
+        "name": "Sector 42",
+        "n": 3,
+        "lat": 28.45846939086914,
+        "lon": 77.108642578125,
+        "median_price_sqft": 8823.529411764706,
+        "median_price": 45000000.0
+      },
+      {
+        "name": "Sector 61",
+        "n": 3,
+        "lat": 28.410373,
+        "lon": 77.09672,
+        "median_price_sqft": 9600.0,
+        "median_price": 12000000.0
+      },
+      {
+        "name": "Sector 82A",
+        "n": 3,
+        "lat": 28.392329,
+        "lon": 76.957142,
+        "median_price_sqft": 5097.312326227989,
+        "median_price": 10400000.0
+      },
+      {
+        "name": "Sector 89A",
+        "n": 3,
+        "lat": 28.437583,
+        "lon": 76.946194,
+        "median_price_sqft": 6279.069767441861,
+        "median_price": 12600000.0
+      },
+      {
+        "name": "Sector 9",
+        "n": 3,
+        "lat": 28.466682,
+        "lon": 76.9997245,
+        "median_price_sqft": 7000.0,
+        "median_price": 10500000.0
+      },
+      {
+        "name": "Sector 9A",
+        "n": 3,
+        "lat": 28.4693116,
+        "lon": 76.9966101573452,
+        "median_price_sqft": 6043.256997455471,
+        "median_price": 9900000.0
+      },
+      {
+        "name": "South City 1 Block C",
+        "n": 3,
+        "lat": 28.461484909057617,
+        "lon": 77.06513214111328,
+        "median_price_sqft": 9166.666666666666,
+        "median_price": 11000000.0
+      },
+      {
+        "name": "Suncity",
+        "n": 3,
+        "lat": 28.436431884765625,
+        "lon": 77.112133,
+        "median_price_sqft": 8727.272727272728,
+        "median_price": 24000000.0
+      },
+      {
+        "name": "Ullahawas",
+        "n": 3,
+        "lat": 28.414762,
+        "lon": 77.091933,
+        "median_price_sqft": 8542.713567839195,
+        "median_price": 17000000.0
+      }
+    ],
+    "New Delhi": [
+      {
+        "name": "Uttam Nagar",
+        "n": 37,
+        "lat": 28.6212874,
+        "lon": 77.0530735,
+        "median_price_sqft": 4789.272030651341,
+        "median_price": 4000000.0
+      },
+      {
+        "name": "Dwarka Mor",
+        "n": 31,
+        "lat": 28.61931610107422,
+        "lon": 77.033262,
+        "median_price_sqft": 4666.666666666667,
+        "median_price": 4000000.0
+      },
+      {
+        "name": "Vasundhara Enclave",
+        "n": 27,
+        "lat": 28.6005236146549,
+        "lon": 77.31781005859375,
+        "median_price_sqft": 8142.857142857141,
+        "median_price": 11500000.0
+      },
+      {
+        "name": "Paschim Vihar",
+        "n": 25,
+        "lat": 28.6677244,
+        "lon": 77.0979515,
+        "median_price_sqft": 10000.0,
+        "median_price": 10000000.0
+      },
+      {
+        "name": "Uttam Nagar West",
+        "n": 24,
+        "lat": 28.621767,
+        "lon": 77.055846,
+        "median_price_sqft": 4700.854700854701,
+        "median_price": 3850000.0
+      },
+      {
+        "name": "Vikaspuri",
+        "n": 24,
+        "lat": 28.6382664514517,
+        "lon": 77.070667247917,
+        "median_price_sqft": 9198.71794871795,
+        "median_price": 9500000.0
+      },
+      {
+        "name": "Mehrauli",
+        "n": 23,
+        "lat": 28.5201861,
+        "lon": 77.179158,
+        "median_price_sqft": 4400.0,
+        "median_price": 3500000.0
+      },
+      {
+        "name": "Mahavir Enclave Part 1",
+        "n": 21,
+        "lat": 28.59803581237793,
+        "lon": 77.07652282714844,
+        "median_price_sqft": 5625.0,
+        "median_price": 4500000.0
+      },
+      {
+        "name": "Malviya Nagar",
+        "n": 20,
+        "lat": 28.5348305,
+        "lon": 77.2097741,
+        "median_price_sqft": 9862.245904874679,
+        "median_price": 10450000.0
+      },
+      {
+        "name": "Mohan Garden",
+        "n": 20,
+        "lat": 28.633064385009767,
+        "lon": 77.03317260742188,
+        "median_price_sqft": 4696.054750402576,
+        "median_price": 3200000.0
+      },
+      {
+        "name": "Sector 19 Dwarka",
+        "n": 16,
+        "lat": 28.5769715,
+        "lon": 77.04641758670815,
+        "median_price_sqft": 8802.083333333332,
+        "median_price": 12350000.0
+      },
+      {
+        "name": "Sector 24 Rohini",
+        "n": 16,
+        "lat": 28.7297569,
+        "lon": 77.087787,
+        "median_price_sqft": 9165.96638655462,
+        "median_price": 10250000.0
+      },
+      {
+        "name": "Chhattarpur",
+        "n": 14,
+        "lat": 28.4958944,
+        "lon": 77.1859976,
+        "median_price_sqft": 5226.495726495727,
+        "median_price": 5600000.0
+      },
+      {
+        "name": "Sector 9 Rohini",
+        "n": 14,
+        "lat": 28.714832152954102,
+        "lon": 77.12369537353516,
+        "median_price_sqft": 12546.296296296296,
+        "median_price": 14250000.0
+      },
+      {
+        "name": "Hari Nagar",
+        "n": 13,
+        "lat": 28.624575,
+        "lon": 77.10898,
+        "median_price_sqft": 7692.307692307692,
+        "median_price": 6500000.0
+      },
+      {
+        "name": "Mayur Vihar 1",
+        "n": 13,
+        "lat": 28.6053661,
+        "lon": 77.2966029307871,
+        "median_price_sqft": 10588.235294117647,
+        "median_price": 12800000.0
+      },
+      {
+        "name": "Dwarka",
+        "n": 12,
+        "lat": 28.584950499999998,
+        "lon": 77.04484429052735,
+        "median_price_sqft": 8460.526315789473,
+        "median_price": 14500000.0
+      },
+      {
+        "name": "Rajouri Garden",
+        "n": 11,
+        "lat": 28.643348693847656,
+        "lon": 77.12055969238281,
+        "median_price_sqft": 9652.777777777777,
+        "median_price": 22500000.0
+      },
+      {
+        "name": "Sector 8 Dwarka",
+        "n": 11,
+        "lat": 28.571273803710938,
+        "lon": 77.0731430053711,
+        "median_price_sqft": 8421.052631578947,
+        "median_price": 9500000.0
+      },
+      {
+        "name": "Dilshad Colony",
+        "n": 10,
+        "lat": 28.6838196,
+        "lon": 77.3291436,
+        "median_price_sqft": 6106.32911392405,
+        "median_price": 6100000.0
+      },
+      {
+        "name": "Kalkaji",
+        "n": 10,
+        "lat": 28.543664466125488,
+        "lon": 77.25489807128906,
+        "median_price_sqft": 11893.27485380117,
+        "median_price": 21500000.0
+      },
+      {
+        "name": "Krishna Nagar",
+        "n": 10,
+        "lat": 28.6537366,
+        "lon": 77.2865507145996,
+        "median_price_sqft": 6800.0,
+        "median_price": 7250000.0
+      },
+      {
+        "name": "Laxmi Nagar",
+        "n": 10,
+        "lat": 28.635967254638672,
+        "lon": 77.26956176757812,
+        "median_price_sqft": 6282.894736842105,
+        "median_price": 5500000.0
+      },
+      {
+        "name": "Patel Nagar West",
+        "n": 10,
+        "lat": 28.65242958068848,
+        "lon": 77.16432189941406,
+        "median_price_sqft": 8208.333333333334,
+        "median_price": 9750000.0
+      },
+      {
+        "name": "Pitampura",
+        "n": 10,
+        "lat": 28.6981218881211,
+        "lon": 77.1338501990923,
+        "median_price_sqft": 10178.571428571428,
+        "median_price": 12500000.0
+      },
+      {
+        "name": "Sector 6 Dwarka",
+        "n": 10,
+        "lat": 28.59344,
+        "lon": 77.0656938014644,
+        "median_price_sqft": 9572.398190045249,
+        "median_price": 16600000.0
+      },
+      {
+        "name": "Shahdara",
+        "n": 10,
+        "lat": 28.68249530859375,
+        "lon": 77.26712714536133,
+        "median_price_sqft": 5959.183673469388,
+        "median_price": 5900000.0
+      },
+      {
+        "name": "Janakpuri",
+        "n": 9,
+        "lat": 28.621054,
+        "lon": 77.0905294,
+        "median_price_sqft": 9125.0,
+        "median_price": 9000000.0
+      },
+      {
+        "name": "Khirki extension",
+        "n": 8,
+        "lat": 28.531533947473143,
+        "lon": 77.21685114038087,
+        "median_price_sqft": 5657.777777777777,
+        "median_price": 4000000.0
+      },
+      {
+        "name": "Palam Colony",
+        "n": 8,
+        "lat": 28.59227180480957,
+        "lon": 77.08367919921875,
+        "median_price_sqft": 5063.047025663848,
+        "median_price": 3150000.0
+      },
+      {
+        "name": "Ramesh Nagar",
+        "n": 8,
+        "lat": 28.649335930603026,
+        "lon": 77.13431624536133,
+        "median_price_sqft": 9476.600985221674,
+        "median_price": 13000000.0
+      },
+      {
+        "name": "Neb Sarai",
+        "n": 7,
+        "lat": 28.5069375,
+        "lon": 77.2065246,
+        "median_price_sqft": 4500.0,
+        "median_price": 3500000.0
+      },
+      {
+        "name": "Pandav Nagar",
+        "n": 7,
+        "lat": 28.610933,
+        "lon": 77.2739145,
+        "median_price_sqft": 6666.666666666667,
+        "median_price": 7000000.0
+      },
+      {
+        "name": "Paryavaran Complex",
+        "n": 7,
+        "lat": 28.51620483398437,
+        "lon": 77.2029037475586,
+        "median_price_sqft": 4352.941176470588,
+        "median_price": 3800000.0
+      },
+      {
+        "name": "Sector 10 Dwarka",
+        "n": 7,
+        "lat": 28.5878656176985,
+        "lon": 77.0624395294411,
+        "median_price_sqft": 9555.555555555555,
+        "median_price": 17200000.0
+      },
+      {
+        "name": "Sector 11 Dwarka",
+        "n": 7,
+        "lat": 28.591866,
+        "lon": 77.050045,
+        "median_price_sqft": 9318.181818181818,
+        "median_price": 16500000.0
+      },
+      {
+        "name": "Sector 23 Dwarka",
+        "n": 7,
+        "lat": 28.5630721141076,
+        "lon": 77.0515235792875,
+        "median_price_sqft": 8789.473684210527,
+        "median_price": 14200000.0
+      },
+      {
+        "name": "Shalimar bagh",
+        "n": 7,
+        "lat": 28.715589,
+        "lon": 77.15750122070312,
+        "median_price_sqft": 11111.111111111111,
+        "median_price": 11500000.0
+      },
+      {
+        "name": "Tughlakabad Extension",
+        "n": 7,
+        "lat": 28.52113342285156,
+        "lon": 77.25788116455078,
+        "median_price_sqft": 5000.0,
+        "median_price": 3800000.0
+      },
+      {
+        "name": "Uttam Nagar East",
+        "n": 7,
+        "lat": 28.6195,
+        "lon": 77.06379699707031,
+        "median_price_sqft": 5441.176470588235,
+        "median_price": 4000000.0
+      },
+      {
+        "name": "Chattarpur Extension",
+        "n": 6,
+        "lat": 28.49180832,
+        "lon": 77.17786153,
+        "median_price_sqft": 4319.444444444444,
+        "median_price": 5200000.0
+      },
+      {
+        "name": "Chittaranjan Park",
+        "n": 6,
+        "lat": 28.537872314453125,
+        "lon": 77.24923706054688,
+        "median_price_sqft": 12230.113636363636,
+        "median_price": 20250000.0
+      },
+      {
+        "name": "Freedom Fighters Enclave",
+        "n": 6,
+        "lat": 28.510249845776364,
+        "lon": 77.1989963487793,
+        "median_price_sqft": 5381.578947368422,
+        "median_price": 5400000.0
+      },
+      {
+        "name": "Kiran Garden",
+        "n": 6,
+        "lat": 28.618488311767575,
+        "lon": 77.04781341552734,
+        "median_price_sqft": 5333.333333333333,
+        "median_price": 4800000.0
+      },
+      {
+        "name": "Naveen Shahdara",
+        "n": 6,
+        "lat": 28.676132601074222,
+        "lon": 77.28523322197265,
+        "median_price_sqft": 5265.734265734266,
+        "median_price": 3600000.0
+      },
+      {
+        "name": "Ranjeet Nagar",
+        "n": 6,
+        "lat": 28.6473168,
+        "lon": 77.1590508438965,
+        "median_price_sqft": 7833.333333333333,
+        "median_price": 7050000.0
+      },
+      {
+        "name": "Sector 13 Rohini",
+        "n": 6,
+        "lat": 28.72061635,
+        "lon": 77.13125918603515,
+        "median_price_sqft": 12613.636363636364,
+        "median_price": 12000000.0
+      },
+      {
+        "name": "Sector 22 Dwarka",
+        "n": 6,
+        "lat": 28.559190822923398,
+        "lon": 77.0596789,
+        "median_price_sqft": 9071.428571428572,
+        "median_price": 16250000.0
+      },
+      {
+        "name": "Sector 7 Dwarka",
+        "n": 6,
+        "lat": 28.58768226199951,
+        "lon": 77.07221181223935,
+        "median_price_sqft": 10480.392156862745,
+        "median_price": 15250000.0
+      },
+      {
+        "name": "Sector 8 Rohini",
+        "n": 6,
+        "lat": 28.7050987,
+        "lon": 77.1227736,
+        "median_price_sqft": 10475.08591065292,
+        "median_price": 11000000.0
+      },
+      {
+        "name": "Sewak Park",
+        "n": 6,
+        "lat": 28.616315670837402,
+        "lon": 77.03421085253906,
+        "median_price_sqft": 4805.555555555556,
+        "median_price": 4325000.0
+      },
+      {
+        "name": "Subhash Nagar",
+        "n": 6,
+        "lat": 28.638351820214844,
+        "lon": 77.11314392089844,
+        "median_price_sqft": 8460.526315789473,
+        "median_price": 8400000.0
+      },
+      {
+        "name": "Vasant Kunj",
+        "n": 6,
+        "lat": 28.5303237,
+        "lon": 77.15178900000001,
+        "median_price_sqft": 12033.333333333332,
+        "median_price": 24900000.0
+      },
+      {
+        "name": "Virender Nagar",
+        "n": 6,
+        "lat": 28.62348175048828,
+        "lon": 77.09696960449219,
+        "median_price_sqft": 6181.818181818182,
+        "median_price": 5550000.0
+      },
+      {
+        "name": "Dabri",
+        "n": 5,
+        "lat": 28.60865974426269,
+        "lon": 77.0905990600586,
+        "median_price_sqft": 4925.373134328358,
+        "median_price": 4200000.0
+      },
+      {
+        "name": "GK I",
+        "n": 5,
+        "lat": 28.555576,
+        "lon": 77.233694,
+        "median_price_sqft": 15333.333333333334,
+        "median_price": 25000000.0
+      },
+      {
+        "name": "Gautam Nagar",
+        "n": 5,
+        "lat": 28.5623914,
+        "lon": 77.21314,
+        "median_price_sqft": 9684.21052631579,
+        "median_price": 9200000.0
+      },
+      {
+        "name": "Green Park",
+        "n": 5,
+        "lat": 28.557674407958984,
+        "lon": 77.20368957519531,
+        "median_price_sqft": 20000.0,
+        "median_price": 54000000.0
+      },
+      {
+        "name": "Indraprastha Extension",
+        "n": 5,
+        "lat": 28.628671646118164,
+        "lon": 77.29979,
+        "median_price_sqft": 8620.689655172413,
+        "median_price": 12500000.0
+      },
+      {
+        "name": "Kalkaji Extention",
+        "n": 5,
+        "lat": 28.5283152,
+        "lon": 77.2662199,
+        "median_price_sqft": 9230.76923076923,
+        "median_price": 12000000.0
+      },
+      {
+        "name": "Karol Bagh",
+        "n": 5,
+        "lat": 28.651836395263672,
+        "lon": 77.1932379,
+        "median_price_sqft": 9829.059829059828,
+        "median_price": 11500000.0
+      },
+      {
+        "name": "Kirti Nagar",
+        "n": 5,
+        "lat": 28.645421981811523,
+        "lon": 77.14124298095703,
+        "median_price_sqft": 11250.0,
+        "median_price": 21000000.0
+      },
+      {
+        "name": "Lajpat Nagar 2",
+        "n": 5,
+        "lat": 28.569873809814453,
+        "lon": 77.24311065673828,
+        "median_price_sqft": 9444.444444444445,
+        "median_price": 9600000.0
+      },
+      {
+        "name": "Mahavir Enclave",
+        "n": 5,
+        "lat": 28.6008776,
+        "lon": 77.0803144,
+        "median_price_sqft": 6666.666666666667,
+        "median_price": 5500000.0
+      },
+      {
+        "name": "Moti Nagar",
+        "n": 5,
+        "lat": 28.666059,
+        "lon": 77.15013122558594,
+        "median_price_sqft": 10625.0,
+        "median_price": 17500000.0
+      },
+      {
+        "name": "Old Mahavir Nagar",
+        "n": 5,
+        "lat": 28.6377751,
+        "lon": 77.0848585,
+        "median_price_sqft": 7014.925373134329,
+        "median_price": 6500000.0
+      },
+      {
+        "name": "Patparganj",
+        "n": 5,
+        "lat": 28.631011962890625,
+        "lon": 77.30213165283203,
+        "median_price_sqft": 9696.969696969696,
+        "median_price": 10000000.0
+      },
+      {
+        "name": "Rohini",
+        "n": 5,
+        "lat": 28.7287540435791,
+        "lon": 77.09276580810547,
+        "median_price_sqft": 10416.666666666666,
+        "median_price": 11500000.0
+      },
+      {
+        "name": "Sadh Nagar",
+        "n": 5,
+        "lat": 28.5894323,
+        "lon": 77.0932907,
+        "median_price_sqft": 5185.185185185185,
+        "median_price": 3800000.0
+      },
+      {
+        "name": "Safdarjung Enclave",
+        "n": 5,
+        "lat": 28.564027,
+        "lon": 77.1945069,
+        "median_price_sqft": 18055.555555555555,
+        "median_price": 37000000.0
+      },
+      {
+        "name": "Sarita Vihar",
+        "n": 5,
+        "lat": 28.53350067138672,
+        "lon": 77.29290008544922,
+        "median_price_sqft": 9500.0,
+        "median_price": 14400000.0
+      },
+      {
+        "name": "Sector 12 Dwarka",
+        "n": 5,
+        "lat": 28.5946485,
+        "lon": 77.043880172191,
+        "median_price_sqft": 9200.0,
+        "median_price": 15800000.0
+      },
+      {
+        "name": "Sector 13 Dwarka",
+        "n": 5,
+        "lat": 28.6004611801251,
+        "lon": 77.0321123731924,
+        "median_price_sqft": 8787.878787878788,
+        "median_price": 14500000.0
+      },
+      {
+        "name": "Shiv Nagar",
+        "n": 5,
+        "lat": 28.6288025,
+        "lon": 77.0958556,
+        "median_price_sqft": 7666.666666666667,
+        "median_price": 6900000.0
+      },
+      {
+        "name": "Sultanpur",
+        "n": 5,
+        "lat": 28.4969141,
+        "lon": 77.1652546,
+        "median_price_sqft": 6521.739130434783,
+        "median_price": 7500000.0
+      },
+      {
+        "name": "Abul Fazal Enclave Part 1",
+        "n": 4,
+        "lat": 28.559448671093747,
+        "lon": 77.2937965,
+        "median_price_sqft": 5750.0,
+        "median_price": 6000000.0
+      },
+      {
+        "name": "Devli",
+        "n": 4,
+        "lat": 28.495794598132324,
+        "lon": 77.23671836206054,
+        "median_price_sqft": 5453.008059873345,
+        "median_price": 3500000.0
+      },
+      {
+        "name": "GK II",
+        "n": 4,
+        "lat": 28.534725189208984,
+        "lon": 77.24182891845703,
+        "median_price_sqft": 14666.666666666668,
+        "median_price": 34000000.0
+      },
+      {
+        "name": "Inderpuri",
+        "n": 4,
+        "lat": 28.631237,
+        "lon": 77.1473146,
+        "median_price_sqft": 8350.694444444445,
+        "median_price": 14500000.0
+      },
+      {
+        "name": "Lajpat Nagar 1",
+        "n": 4,
+        "lat": 28.57574626812744,
+        "lon": 77.24215698242188,
+        "median_price_sqft": 11172.248803827752,
+        "median_price": 11250000.0
+      },
+      {
+        "name": "Mayur Vihar 2",
+        "n": 4,
+        "lat": 28.617045,
+        "lon": 77.299223,
+        "median_price_sqft": 7500.0,
+        "median_price": 12250000.0
+      },
+      {
+        "name": "Najafgarh",
+        "n": 4,
+        "lat": 28.6078536,
+        "lon": 76.9923388439453,
+        "median_price_sqft": 6701.388888888889,
+        "median_price": 7850000.000000001
+      },
+      {
+        "name": "New Mahavir Nagar",
+        "n": 4,
+        "lat": 28.633487701416016,
+        "lon": 77.0843505859375,
+        "median_price_sqft": 6511.646586345381,
+        "median_price": 5950000.0
+      },
+      {
+        "name": "Raj Nagar 2",
+        "n": 4,
+        "lat": 28.5771809,
+        "lon": 77.0776363,
+        "median_price_sqft": 5407.407407407407,
+        "median_price": 3550000.0
+      },
+      {
+        "name": "Rani Bagh",
+        "n": 4,
+        "lat": 28.617162704467773,
+        "lon": 77.07132720947266,
+        "median_price_sqft": 8075.396825396825,
+        "median_price": 9550000.0
+      },
+      {
+        "name": "Sangam Vihar",
+        "n": 4,
+        "lat": 28.49855613708496,
+        "lon": 77.24030303955078,
+        "median_price_sqft": 4420.02442002442,
+        "median_price": 4000000.0
+      },
+      {
+        "name": "Sant Nagar - East of Kailash",
+        "n": 4,
+        "lat": 28.5543715,
+        "lon": 77.251878,
+        "median_price_sqft": 9014.632107023412,
+        "median_price": 10800000.0
+      },
+      {
+        "name": "Sant Nagar Burari",
+        "n": 4,
+        "lat": 28.741756439208984,
+        "lon": 77.19949340820312,
+        "median_price_sqft": 4498.910675381263,
+        "median_price": 3300000.0
+      },
+      {
+        "name": "Sector 25 Rohini",
+        "n": 4,
+        "lat": 28.7344970703125,
+        "lon": 77.09424591064453,
+        "median_price_sqft": 7091.389533384893,
+        "median_price": 5750000.0
+      },
+      {
+        "name": "Sector 9 Dwarka",
+        "n": 4,
+        "lat": 28.58078555,
+        "lon": 77.06904703259406,
+        "median_price_sqft": 9625.816993464054,
+        "median_price": 15100000.0
+      },
+      {
+        "name": "Sector B Vasant Kunj",
+        "n": 4,
+        "lat": 28.532435614999997,
+        "lon": 77.158826,
+        "median_price_sqft": 12718.75,
+        "median_price": 23500000.0
+      },
+      {
+        "name": "Shakarpur",
+        "n": 4,
+        "lat": 28.629560470581055,
+        "lon": 77.28008255131836,
+        "median_price_sqft": 5790.476190476191,
+        "median_price": 4450000.0
+      },
+      {
+        "name": "South Extension 1",
+        "n": 4,
+        "lat": 28.5728759765625,
+        "lon": 77.22295379638672,
+        "median_price_sqft": 10496.296296296296,
+        "median_price": 20200000.0
+      },
+      {
+        "name": "Subhash Park-Shahdara",
+        "n": 4,
+        "lat": 28.680593495300293,
+        "lon": 77.277099609375,
+        "median_price_sqft": 6186.507936507936,
+        "median_price": 6000000.0
+      },
+      {
+        "name": "Tilak Nagar",
+        "n": 4,
+        "lat": 28.638729095458984,
+        "lon": 77.09410095214844,
+        "median_price_sqft": 7743.104254324451,
+        "median_price": 6300000.0
+      },
+      {
+        "name": "Vikaspuri Block J",
+        "n": 4,
+        "lat": 28.64430774510498,
+        "lon": 77.08026123046875,
+        "median_price_sqft": 9147.798742138366,
+        "median_price": 11750000.0
+      },
+      {
+        "name": "Amar Colony",
+        "n": 3,
+        "lat": 28.56134986877441,
+        "lon": 77.24330139160156,
+        "median_price_sqft": 11000.0,
+        "median_price": 11000000.0
+      },
+      {
+        "name": "Bindapur",
+        "n": 3,
+        "lat": 28.6148469,
+        "lon": 77.0678768,
+        "median_price_sqft": 4477.611940298508,
+        "median_price": 3000000.0
+      },
+      {
+        "name": "Chhattarpur Enclave Phase2",
+        "n": 3,
+        "lat": 28.4997487,
+        "lon": 77.1866376,
+        "median_price_sqft": 4333.333333333333,
+        "median_price": 6500000.0
+      },
+      {
+        "name": "Dilshad Garden",
+        "n": 3,
+        "lat": 28.68651580810547,
+        "lon": 77.31591796875,
+        "median_price_sqft": 4545.454545454545,
+        "median_price": 7000000.0
+      },
+      {
+        "name": "Fateh Nagar",
+        "n": 3,
+        "lat": 28.632858276367188,
+        "lon": 77.10833740234375,
+        "median_price_sqft": 7555.555555555556,
+        "median_price": 6800000.0
+      },
+      {
+        "name": "Geeta Colony",
+        "n": 3,
+        "lat": 28.6510595,
+        "lon": 77.2706136,
+        "median_price_sqft": 8333.333333333334,
+        "median_price": 7500000.0
+      },
+      {
+        "name": "Guru Ramdas Nagar",
+        "n": 3,
+        "lat": 28.63726806640625,
+        "lon": 77.2783203125,
+        "median_price_sqft": 5777.777777777777,
+        "median_price": 5500000.0
+      },
+      {
+        "name": "Hari Nagar Ashram",
+        "n": 3,
+        "lat": 28.574220657348636,
+        "lon": 77.25639343261719,
+        "median_price_sqft": 5689.6551724137935,
+        "median_price": 4500000.0
+      },
+      {
+        "name": "Karkardooma",
+        "n": 3,
+        "lat": 28.6518095,
+        "lon": 77.3039085,
+        "median_price_sqft": 7333.333333333333,
+        "median_price": 11000000.0
+      },
+      {
+        "name": "Malka Ganj",
+        "n": 3,
+        "lat": 28.6773738861084,
+        "lon": 77.2087173461914,
+        "median_price_sqft": 8507.462686567163,
+        "median_price": 5700000.0
+      },
+      {
+        "name": "Mansarover Park",
+        "n": 3,
+        "lat": 28.68162727355957,
+        "lon": 77.299447,
+        "median_price_sqft": 5185.185185185185,
+        "median_price": 5900000.0
+      },
+      {
+        "name": "Matiala",
+        "n": 3,
+        "lat": 28.6088961,
+        "lon": 77.0498395,
+        "median_price_sqft": 4678.362573099415,
+        "median_price": 4000000.0
+      },
+      {
+        "name": "Meera Bagh",
+        "n": 3,
+        "lat": 28.6575870513916,
+        "lon": 77.0895768,
+        "median_price_sqft": 9257.142857142859,
+        "median_price": 16200000.000000002
+      },
+      {
+        "name": "Nawada",
+        "n": 3,
+        "lat": 28.6271769,
+        "lon": 77.0396183,
+        "median_price_sqft": 5666.666666666667,
+        "median_price": 4500000.0
+      },
+      {
+        "name": "New Krishna Park",
+        "n": 3,
+        "lat": 28.6308645,
+        "lon": 77.075847,
+        "median_price_sqft": 7462.686567164179,
+        "median_price": 5000000.0
+      },
+      {
+        "name": "New Moti Nagar",
+        "n": 3,
+        "lat": 28.666059494018555,
+        "lon": 77.15013122558594,
+        "median_price_sqft": 10769.23076923077,
+        "median_price": 17500000.0
+      },
+      {
+        "name": "Okhla",
+        "n": 3,
+        "lat": 28.5642694,
+        "lon": 77.292389,
+        "median_price_sqft": 5800.0,
+        "median_price": 5800000.0
+      },
+      {
+        "name": "Outram Lines",
+        "n": 3,
+        "lat": 28.701400756835938,
+        "lon": 77.20785522460938,
+        "median_price_sqft": 11562.5,
+        "median_price": 18500000.0
+      },
+      {
+        "name": "Param Puri",
+        "n": 3,
+        "lat": 28.618539810180664,
+        "lon": 77.05422973632812,
+        "median_price_sqft": 5200.0,
+        "median_price": 3900000.0
+      },
+      {
+        "name": "Pochanpur Colony",
+        "n": 3,
+        "lat": 28.561071395874023,
+        "lon": 77.04794311523438,
+        "median_price_sqft": 5243.445692883895,
+        "median_price": 3800000.0
+      },
+      {
+        "name": "Raja Puri",
+        "n": 3,
+        "lat": 28.60946083068848,
+        "lon": 77.04845428466797,
+        "median_price_sqft": 4568.9655172413795,
+        "median_price": 2650000.0
+      },
+      {
+        "name": "Sainik Nagar",
+        "n": 3,
+        "lat": 28.634746551513672,
+        "lon": 77.04907989501953,
+        "median_price_sqft": 4352.941176470588,
+        "median_price": 4800000.0
+      },
+      {
+        "name": "Saket",
+        "n": 3,
+        "lat": 28.523548,
+        "lon": 77.2070602938194,
+        "median_price_sqft": 12500.0,
+        "median_price": 22500000.0
+      },
+      {
+        "name": "Savitri Nagar Village",
+        "n": 3,
+        "lat": 28.5398139,
+        "lon": 77.21868133544922,
+        "median_price_sqft": 5000.0,
+        "median_price": 4500000.0
+      },
+      {
+        "name": "Sector 1 Dwarka",
+        "n": 3,
+        "lat": 28.593415812452,
+        "lon": 77.0793120266392,
+        "median_price_sqft": 8100.0,
+        "median_price": 8100000.0
+      },
+      {
+        "name": "Sector 15 Rohini",
+        "n": 3,
+        "lat": 28.7321691,
+        "lon": 77.1302979,
+        "median_price_sqft": 10000.0,
+        "median_price": 12000000.0
+      },
+      {
+        "name": "Sector 16 Rohini",
+        "n": 3,
+        "lat": 28.7331365,
+        "lon": 77.1201953,
+        "median_price_sqft": 8285.714285714286,
+        "median_price": 5800000.0
+      },
+      {
+        "name": "Sector 16B Dwarka",
+        "n": 3,
+        "lat": 28.6050169,
+        "lon": 77.0167025,
+        "median_price_sqft": 9865.152590489708,
+        "median_price": 13500000.0
+      },
+      {
+        "name": "Sector 2 Dwarka",
+        "n": 3,
+        "lat": 28.598164,
+        "lon": 77.069178,
+        "median_price_sqft": 8307.692307692309,
+        "median_price": 17400000.0
+      },
+      {
+        "name": "Sector 22 Rohini",
+        "n": 3,
+        "lat": 28.718372344970703,
+        "lon": 77.06100463867188,
+        "median_price_sqft": 7500.0,
+        "median_price": 6000000.0
+      },
+      {
+        "name": "Sector 23 Rohini",
+        "n": 3,
+        "lat": 28.72089385986328,
+        "lon": 77.08010864257812,
+        "median_price_sqft": 8571.42857142857,
+        "median_price": 6000000.0
+      },
+      {
+        "name": "Sector 28 Dwarka",
+        "n": 3,
+        "lat": 28.559880617929,
+        "lon": 77.0355014,
+        "median_price_sqft": 4583.333333333333,
+        "median_price": 5500000.0
+      },
+      {
+        "name": "Sector 28 Rohini",
+        "n": 3,
+        "lat": 28.747126,
+        "lon": 77.098444,
+        "median_price_sqft": 6404.494382022472,
+        "median_price": 5700000.0
+      },
+      {
+        "name": "Sector 4 Dwarka",
+        "n": 3,
+        "lat": 28.6014647960921,
+        "lon": 77.0524147268374,
+        "median_price_sqft": 9687.5,
+        "median_price": 15500000.0
+      },
+      {
+        "name": "Sector 5 Dwarka",
+        "n": 3,
+        "lat": 28.601697,
+        "lon": 77.0566328,
+        "median_price_sqft": 9565.217391304348,
+        "median_price": 16500000.0
+      },
+      {
+        "name": "Shastri Nagar",
+        "n": 3,
+        "lat": 28.670089721679688,
+        "lon": 77.18177032470703,
+        "median_price_sqft": 7407.407407407408,
+        "median_price": 7990000.000000001
+      },
+      {
+        "name": "Sukhdev Vihar",
+        "n": 3,
+        "lat": 28.5538385,
+        "lon": 77.2740986,
+        "median_price_sqft": 12000.0,
+        "median_price": 15000000.0
+      },
+      {
+        "name": "Vipin Garden",
+        "n": 3,
+        "lat": 28.624757766723636,
+        "lon": 77.02686309814453,
+        "median_price_sqft": 3925.233644859813,
+        "median_price": 4200000.0
+      },
+      {
+        "name": "Zakir Nagar",
+        "n": 3,
+        "lat": 28.56884002685547,
+        "lon": 77.27896118164062,
+        "median_price_sqft": 5411.764705882353,
+        "median_price": 4600000.0
+      }
+    ],
+    "Noida": [
+      {
+        "name": "Noida Extension",
+        "n": 160,
+        "lat": 28.605958,
+        "lon": 77.4413572,
+        "median_price_sqft": 3843.5158805529177,
+        "median_price": 4500000.0
+      },
+      {
+        "name": "Sector 137",
+        "n": 108,
+        "lat": 28.508696992858887,
+        "lon": 77.410762,
+        "median_price_sqft": 4723.186925434116,
+        "median_price": 5900000.0
+      },
+      {
+        "name": "Sector 78",
+        "n": 55,
+        "lat": 28.5606725,
+        "lon": 77.3865691983336,
+        "median_price_sqft": 5307.262569832402,
+        "median_price": 6400000.0
+      },
+      {
+        "name": "Sector 143",
+        "n": 46,
+        "lat": 28.502597,
+        "lon": 77.4257,
+        "median_price_sqft": 5015.735835281815,
+        "median_price": 6250000.0
+      },
+      {
+        "name": "Sector 74",
+        "n": 38,
+        "lat": 28.574637,
+        "lon": 77.388803,
+        "median_price_sqft": 5083.179297597043,
+        "median_price": 5675000.0
+      },
+      {
+        "name": "Sector 76",
+        "n": 38,
+        "lat": 28.56850969745605,
+        "lon": 77.383196,
+        "median_price_sqft": 5259.489138219145,
+        "median_price": 6050000.0
+      },
+      {
+        "name": "Sector 75",
+        "n": 34,
+        "lat": 28.576256,
+        "lon": 77.3803,
+        "median_price_sqft": 5502.5532444887285,
+        "median_price": 8200000.0
+      },
+      {
+        "name": "Sector 168",
+        "n": 32,
+        "lat": 28.4962932685044,
+        "lon": 77.4085199482841,
+        "median_price_sqft": 4553.30756990225,
+        "median_price": 5500000.0
+      },
+      {
+        "name": "Sector 77",
+        "n": 32,
+        "lat": 28.569317,
+        "lon": 77.3910687279008,
+        "median_price_sqft": 5531.914893617021,
+        "median_price": 7300000.0
+      },
+      {
+        "name": "Sector 119",
+        "n": 27,
+        "lat": 28.5863287948209,
+        "lon": 77.4010620206905,
+        "median_price_sqft": 4950.495049504951,
+        "median_price": 7000000.0
+      },
+      {
+        "name": "Sector 120",
+        "n": 25,
+        "lat": 28.5859361,
+        "lon": 77.3959017798717,
+        "median_price_sqft": 4845.814977973569,
+        "median_price": 6100000.0
+      },
+      {
+        "name": "Sector 45",
+        "n": 25,
+        "lat": 28.548787,
+        "lon": 77.346032,
+        "median_price_sqft": 6122.448979591837,
+        "median_price": 10500000.0
+      },
+      {
+        "name": "Sector 118",
+        "n": 23,
+        "lat": 28.582315,
+        "lon": 77.403976,
+        "median_price_sqft": 4705.882352941177,
+        "median_price": 6000000.0
+      },
+      {
+        "name": "Sector 150",
+        "n": 22,
+        "lat": 28.425898106473205,
+        "lon": 77.4835,
+        "median_price_sqft": 5784.684373922042,
+        "median_price": 10900000.0
+      },
+      {
+        "name": "Sector 79",
+        "n": 21,
+        "lat": 28.564325,
+        "lon": 77.397109,
+        "median_price_sqft": 6011.560693641619,
+        "median_price": 8800000.0
+      },
+      {
+        "name": "Greater Noida West",
+        "n": 20,
+        "lat": 28.605958,
+        "lon": 77.44451141357422,
+        "median_price_sqft": 3706.557772286179,
+        "median_price": 4450000.0
+      },
+      {
+        "name": "Sector 50",
+        "n": 17,
+        "lat": 28.5782385,
+        "lon": 77.3724282527096,
+        "median_price_sqft": 6349.206349206349,
+        "median_price": 10000000.0
+      },
+      {
+        "name": "Sector 107",
+        "n": 16,
+        "lat": 28.5461905,
+        "lon": 77.374932,
+        "median_price_sqft": 6128.557159165036,
+        "median_price": 10250000.0
+      },
+      {
+        "name": "Sector 62",
+        "n": 16,
+        "lat": 28.6212655,
+        "lon": 77.366882,
+        "median_price_sqft": 5468.599033816425,
+        "median_price": 7500000.0
+      },
+      {
+        "name": "Sector 143 B",
+        "n": 14,
+        "lat": 28.495720249999998,
+        "lon": 77.337745,
+        "median_price_sqft": 5284.280936454849,
+        "median_price": 6500000.0
+      },
+      {
+        "name": "Sector 134",
+        "n": 12,
+        "lat": 28.5039393985819,
+        "lon": 77.3841295,
+        "median_price_sqft": 4023.317832190951,
+        "median_price": 4850000.0
+      },
+      {
+        "name": "Sector 73",
+        "n": 12,
+        "lat": 28.587989807128906,
+        "lon": 77.3874,
+        "median_price_sqft": 3288.2882882882886,
+        "median_price": 3000000.0
+      },
+      {
+        "name": "Sector 100",
+        "n": 10,
+        "lat": 28.5434121846104,
+        "lon": 77.367853,
+        "median_price_sqft": 5492.9711681588005,
+        "median_price": 7925000.0
+      },
+      {
+        "name": "Sector 128",
+        "n": 10,
+        "lat": 28.5235605,
+        "lon": 77.35858226081535,
+        "median_price_sqft": 6486.244147588162,
+        "median_price": 12850000.0
+      },
+      {
+        "name": "Sector 70",
+        "n": 10,
+        "lat": 28.594127,
+        "lon": 77.381972327979,
+        "median_price_sqft": 4997.59846301633,
+        "median_price": 8300000.0
+      },
+      {
+        "name": "Sector 110",
+        "n": 8,
+        "lat": 28.5320895830119,
+        "lon": 77.378430896684,
+        "median_price_sqft": 5083.52452747733,
+        "median_price": 6400000.0
+      },
+      {
+        "name": "Sector 61",
+        "n": 8,
+        "lat": 28.59717110628605,
+        "lon": 77.3681621317091,
+        "median_price_sqft": 6129.782342767959,
+        "median_price": 8750000.0
+      },
+      {
+        "name": "Sector 93",
+        "n": 8,
+        "lat": 28.522768,
+        "lon": 77.3897749,
+        "median_price_sqft": 4772.727272727272,
+        "median_price": 5350000.0
+      },
+      {
+        "name": "Sector 121",
+        "n": 7,
+        "lat": 28.59955596923828,
+        "lon": 77.4027348890181,
+        "median_price_sqft": 5209.302325581395,
+        "median_price": 5000000.0
+      },
+      {
+        "name": "Sector 53",
+        "n": 7,
+        "lat": 28.5905383,
+        "lon": 77.35981,
+        "median_price_sqft": 3877.5510204081634,
+        "median_price": 3800000.0
+      },
+      {
+        "name": "Sector 117",
+        "n": 6,
+        "lat": 28.578532728095883,
+        "lon": 77.39691016425343,
+        "median_price_sqft": 4345.959595959596,
+        "median_price": 3750000.0
+      },
+      {
+        "name": "Sector 129",
+        "n": 6,
+        "lat": 28.524543,
+        "lon": 77.364765,
+        "median_price_sqft": 3940.095684039088,
+        "median_price": 5775000.0
+      },
+      {
+        "name": "Sector 135",
+        "n": 6,
+        "lat": 28.4954477171901,
+        "lon": 77.4010276634417,
+        "median_price_sqft": 4697.674418604651,
+        "median_price": 5850000.0
+      },
+      {
+        "name": "Sector 151",
+        "n": 6,
+        "lat": 28.4449709071381,
+        "lon": 77.465759,
+        "median_price_sqft": 3284.7896440129452,
+        "median_price": 3300000.0
+      },
+      {
+        "name": "Sector 34",
+        "n": 6,
+        "lat": 28.58366299420166,
+        "lon": 77.3627374676163,
+        "median_price_sqft": 6188.803088803089,
+        "median_price": 6500000.0
+      },
+      {
+        "name": "Sector 49",
+        "n": 6,
+        "lat": 28.5573004642065,
+        "lon": 77.37499270486956,
+        "median_price_sqft": 4000.0,
+        "median_price": 3750000.0
+      },
+      {
+        "name": "Sector 51",
+        "n": 6,
+        "lat": 28.579497949999997,
+        "lon": 77.36260695,
+        "median_price_sqft": 5981.691919191919,
+        "median_price": 9250000.0
+      },
+      {
+        "name": "Noida Extension Block C",
+        "n": 5,
+        "lat": 28.616204,
+        "lon": 77.42598734853786,
+        "median_price_sqft": 3867.403314917127,
+        "median_price": 3800000.0
+      },
+      {
+        "name": "Sector 21",
+        "n": 5,
+        "lat": 28.5843456,
+        "lon": 77.3363292,
+        "median_price_sqft": 6538.461538461538,
+        "median_price": 8900000.0
+      },
+      {
+        "name": "Sector 37",
+        "n": 5,
+        "lat": 28.566336,
+        "lon": 77.343945,
+        "median_price_sqft": 5777.777777777777,
+        "median_price": 6000000.0
+      },
+      {
+        "name": "Sector 93A",
+        "n": 5,
+        "lat": 28.518467,
+        "lon": 77.382922806663,
+        "median_price_sqft": 5522.682445759368,
+        "median_price": 8700000.0
+      },
+      {
+        "name": "Noida Extension Block A",
+        "n": 4,
+        "lat": 28.562096,
+        "lon": 77.45146987224045,
+        "median_price_sqft": 3763.142451405968,
+        "median_price": 4975000.0
+      },
+      {
+        "name": "Sector 143A",
+        "n": 4,
+        "lat": 28.50121362298584,
+        "lon": 77.42766598291016,
+        "median_price_sqft": 4687.392625875512,
+        "median_price": 5750000.0
+      },
+      {
+        "name": "Sector 19",
+        "n": 4,
+        "lat": 28.57783625,
+        "lon": 77.32329965,
+        "median_price_sqft": 5210.526315789473,
+        "median_price": 14100000.0
+      },
+      {
+        "name": "Sector 50 Block F",
+        "n": 4,
+        "lat": 28.575836000000002,
+        "lon": 77.3735722892913,
+        "median_price_sqft": 6333.333333333334,
+        "median_price": 8050000.0
+      },
+      {
+        "name": "Sector 62 Block B",
+        "n": 4,
+        "lat": 28.6204936163703,
+        "lon": 77.37141570523265,
+        "median_price_sqft": 5079.295704295704,
+        "median_price": 7750000.0
+      },
+      {
+        "name": "Sector 93B",
+        "n": 4,
+        "lat": 28.5112743408678,
+        "lon": 77.3916888195878,
+        "median_price_sqft": 6126.126126126126,
+        "median_price": 6800000.0
+      },
+      {
+        "name": "Taj Expressway",
+        "n": 4,
+        "lat": 28.4324446,
+        "lon": 77.5079173,
+        "median_price_sqft": 3441.9475655430715,
+        "median_price": 4450000.0
+      },
+      {
+        "name": "Hindon Vihar",
+        "n": 3,
+        "lat": 28.556795120239254,
+        "lon": 77.3759994506836,
+        "median_price_sqft": 3400.0,
+        "median_price": 3400000.0
+      },
+      {
+        "name": "Noida Greater Noida Express Way",
+        "n": 3,
+        "lat": 28.5001229,
+        "lon": 77.4077621,
+        "median_price_sqft": 4285.714285714285,
+        "median_price": 6000000.0
+      },
+      {
+        "name": "Sector 1",
+        "n": 3,
+        "lat": 28.575631,
+        "lon": 77.441177,
+        "median_price_sqft": 4022.346368715084,
+        "median_price": 4200000.0
+      },
+      {
+        "name": "Sector 106",
+        "n": 3,
+        "lat": 28.549346,
+        "lon": 77.3775877307659,
+        "median_price_sqft": 5020.92050209205,
+        "median_price": 7900000.0
+      },
+      {
+        "name": "Sector 144",
+        "n": 3,
+        "lat": 28.496607,
+        "lon": 77.439827,
+        "median_price_sqft": 5166.051660516605,
+        "median_price": 6859999.999999999
+      },
+      {
+        "name": "Sector 32",
+        "n": 3,
+        "lat": 28.57853,
+        "lon": 77.347635,
+        "median_price_sqft": 8963.707914298207,
+        "median_price": 20500000.0
+      },
+      {
+        "name": "Sector 44",
+        "n": 3,
+        "lat": 28.5528411,
+        "lon": 77.3364,
+        "median_price_sqft": 6827.586206896552,
+        "median_price": 9900000.0
+      },
+      {
+        "name": "Sector 46",
+        "n": 3,
+        "lat": 28.5507543331581,
+        "lon": 77.3616874515359,
+        "median_price_sqft": 5052.631578947368,
+        "median_price": 4810000.0
+      },
+      {
+        "name": "Sector 46 Block A",
+        "n": 3,
+        "lat": 28.551700592041016,
+        "lon": 77.3605,
+        "median_price_sqft": 6307.692307692308,
+        "median_price": 41000000.0
+      },
+      {
+        "name": "Sector 82",
+        "n": 3,
+        "lat": 28.5281043391844,
+        "lon": 77.38901,
+        "median_price_sqft": 4583.333333333333,
+        "median_price": 5500000.0
+      },
+      {
+        "name": "Sultanpur",
+        "n": 3,
+        "lat": 28.528983,
+        "lon": 77.355843,
+        "median_price_sqft": 6906.474820143885,
+        "median_price": 24000000.0
+      }
+    ],
+    "Other": [
+      {
+        "name": "Noida",
+        "n": 3,
+        "lat": 28.605958938598636,
+        "lon": 77.44451141357422,
+        "median_price_sqft": 4903.846153846154,
+        "median_price": 5200000.0
+      }
+    ]
+  },
+  "city_centre": {
+    "Faridabad": {
+      "lat": 28.4090092,
+      "lon": 77.33119144854537,
+      "median_price_sqft": 4187.41391184573
+    },
+    "Ghaziabad": {
+      "lat": 28.6546768,
+      "lon": 77.3784460890334,
+      "median_price_sqft": 4189.533604630893
+    },
+    "Greater Noida": {
+      "lat": 28.5114062451738,
+      "lon": 77.500771,
+      "median_price_sqft": 3827.4932614555255
+    },
+    "Gurgaon": {
+      "lat": 28.423439458762,
+      "lon": 77.02710723876953,
+      "median_price_sqft": 6285.714285714285
+    },
+    "New Delhi": {
+      "lat": 28.621054,
+      "lon": 77.1337505,
+      "median_price_sqft": 7500.0
+    },
+    "Noida": {
+      "lat": 28.5680204,
+      "lon": 77.3928077781026,
+      "median_price_sqft": 4950.495049504951
+    },
+    "Other": {
+      "lat": 28.593073844909668,
+      "lon": 77.44281005859375,
+      "median_price_sqft": 4703.005328005328
+    }
+  },
+  "categories": {
+    "Status": [
+      "Ready to Move",
+      "Under Construction",
+      "Unknown"
+    ],
+    "neworold": [
+      "New Property",
+      "Resale"
+    ],
+    "Furnished_status": [
+      "Furnished",
+      "Semi-Furnished",
+      "Unfurnished",
+      "Unknown"
+    ],
+    "type_of_building": [
+      "Flat",
+      "Individual House"
+    ]
+  },
+  "area_range": [
+    501,
+    6000
+  ],
+  "metrics": {
+    "r2": 0.9250015448619632,
+    "r2_log": 0.9390997282544624,
+    "mae": 1117064.8444229108,
+    "median_abs_error": 580978.0000000056,
+    "mape_pct": 12.022433985668025,
+    "resid_q10": -0.19431968446904335,
+    "resid_q90": 0.18600902878980108,
+    "n_train": 5590,
+    "n_val": 987,
+    "n_test": 1161,
+    "best_iteration": 778
+  },
+  "importances": [
+    [
+      "Bathrooms",
+      0.3718934655189514
+    ],
+    [
+      "area",
+      0.17841140925884247
+    ],
+    [
+      "city_New Delhi",
+      0.10360541194677353
+    ],
+    [
+      "Bedrooms",
+      0.09984450787305832
+    ],
+    [
+      "city_Faridabad",
+      0.03408604487776756
+    ],
+    [
+      "locality",
+      0.03163215517997742
+    ],
+    [
+      "area_per_bed",
+      0.030604690313339233
+    ],
+    [
+      "longitude",
+      0.02910040132701397
+    ],
+    [
+      "city_Gurgaon",
+      0.025284161791205406
+    ],
+    [
+      "city_Ghaziabad",
+      0.01724415458738804
+    ],
+    [
+      "city_Greater Noida",
+      0.012498344294726849
+    ],
+    [
+      "latitude",
+      0.010580388829112053
+    ]
+  ]
+}
